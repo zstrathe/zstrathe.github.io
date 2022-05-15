@@ -7,12 +7,15 @@
 [Web Scraping & Twitter Sentiment Analysis of Bitcoin](/sample_page)
 
 <img src="images/1_bitcoin_webscraping_sentiment_analysis_project.png?raw=true"/> 
+
 ---
+
 [Regression Analysis with Stata](/pdf/sample_presentation.pdf)
 
 <img src="images/2_stata_regression_analysis.png?raw=true"/>
 
 ---
+
 [Pyspark Feature Selection and Image Classification](http://example.com/)
 
 <img src="images/3_pyspark_classification_project.png?thumb=true"/>
