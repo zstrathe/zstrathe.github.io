@@ -22,7 +22,7 @@
 
 ---
 
-[Real Estate Data Visualization](http://example.com/)
+[Real Estate Data Visualization with Tableau](http://example.com/)
 <img src="images/5_data_visualiztion_project.png?raw=true" width="450"/>
 
 ---
