@@ -7,7 +7,7 @@
 
 ---
 
-[Reinforcement Learning: Training a Model to Play Mario Bros](http://example.com/)
+[Reinforcement Learning: Training a Model to Play Mario Bros with Proximal Policy Optimization (PPO)](http://example.com/)
 <img src="images/4_reinforcement_learning_project.gif?raw=true" width="450"/>
 
 ---
