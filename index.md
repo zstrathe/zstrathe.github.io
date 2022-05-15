@@ -16,22 +16,27 @@
 <img src="images/3_pyspark_classification_project.png?thumb=true" width="450"/>
 
 ---
+
 [Reinforcement Learning: Training a Model to Play Mario Bros](http://example.com/)
 <img src="images/4_reinforcement_learning_project.gif?raw=true" width="450"/>
 
 ---
-[Real Estate Data Visualiztion](http://example.com/)
+
+[Real Estate Data Visualization](http://example.com/)
 <img src="images/5_data_visualiztion_project.png?raw=true" width="450"/>
 
 ---
+
 [Deep Neural Text Generation Models Trained with Song Lyrics](http://example.com/)
 <img src="images/6_deep_text_generation_project.png?raw=true" width="450"/>
 
 ---
+
 [Client Company Visualization Project](http://example.com/)
 <img src="images/7_capstone_visualization_project.png?raw=true" width="450"/>
 
 ---
+
 [Statistics Linear Modeling Home Pricing](http://example.com/)
 <img src="images/8_statistics_linear_model_project.png?raw=true" width="450"/>
 
