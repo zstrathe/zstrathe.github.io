@@ -1,8 +1,6 @@
-## Portfolio
+## Portfolio - Data Science Projects
 
 ---
-
-### Data Science Projects
 
 [Web Scraping & Twitter Sentiment Analysis of Bitcoin](/sample_page)
 <img src="images/1_bitcoin_webscraping_sentiment_analysis_project.png?raw=true" width="300"/> 
