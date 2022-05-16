@@ -29,7 +29,7 @@
 
 ---
 
-### Statistics Linear Modeling Home Pricing
+### Statisttical Analysis of Home Pricing with Linear Modeling
 (Project for STAT 705: Regression and Analysis of Variance)
 
 * Utilized a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model for predictive performance
@@ -39,7 +39,7 @@
 
 ---
 
-### Data Visualization Project for Client Company
+### Data Visualization Business Capstone Project
 (Project for GENBA 890: Business Capstone)
 
 * Worked with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain
