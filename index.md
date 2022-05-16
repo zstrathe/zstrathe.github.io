@@ -7,9 +7,11 @@ Term Project for CIS 730: Programming Techniques for Data Science and Analytics
 * Evaluated methods of feature selection and compared performance of image classification algorithms, entirely using the Apache PySpark distributed computing framework, with a data set of 500,000 labeled satellite images
 
 [Link](/sample_page)<br>
-<a href="/sample_page">
-  <img src="images/3_pyspark_classification_project.png?raw=true" width="350"/>
-</a>
+<p align="center">
+  <a href="/sample_page">
+    <img src="images/3_pyspark_classification_project.png?raw=true" width="350"/>
+  </a>
+</p>
 
 ---
 ## Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros 
