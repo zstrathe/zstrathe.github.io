@@ -1,7 +1,7 @@
 # Portfolio
 ---
 
-<a href="/sample_page"><h2>Satellite Image Feature Selection & Classification Using PySpark</h2></a>
+<h2><a href="/sample_page">Satellite Image Feature Selection & Classification Using PySpark</a></h2>
 
 Term Project for CIS 730: Programming Techniques for Data Science and Analytics
 
@@ -15,7 +15,7 @@ Term Project for CIS 730: Programming Techniques for Data Science and Analytics
 
 ---
 
-<a href="/sample_page"><h2>Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros</h2></a>
+<h2><a href="/sample_page">Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros</a></h2>
 
 Term Project for CIS 731: Introduction to Artificial Intelligence
 
@@ -29,7 +29,7 @@ Term Project for CIS 731: Introduction to Artificial Intelligence
 
 ---
 
-<a href="/sample_page"><h2>Comparison of Deep Learning Text Generation Models Trained with Song Lyrics</h2></a>
+<h2><a href="/sample_page">Comparison of Deep Learning Text Generation Models Trained with Song Lyrics</a></h2>
 
 Term Project for CIS 732: Machine Learning & Pattern Recognition
 
@@ -43,7 +43,7 @@ Term Project for CIS 732: Machine Learning & Pattern Recognition
 
 ---
 
-<a href="/sample_page"><h2>Statistical Analysis of Home Pricing with Linear Modeling in R</h2></a>
+<h2><a href="/sample_page">Statistical Analysis of Home Pricing with Linear Modeling in R</a></h2>
 
 Term Project for STAT 705: Regression and Analysis of Variance
 
@@ -57,7 +57,7 @@ Term Project for STAT 705: Regression and Analysis of Variance
 
 ---
 
-<a href="/sample_page"><h2>Data Visualization Business Capstone Project</h2></a>
+<h2><a href="/sample_page">Data Visualization Business Capstone Project</a></h2>
 
 Term Project for GENBA 890: Business Capstone
 
@@ -71,7 +71,7 @@ Term Project for GENBA 890: Business Capstone
 
 ---
 
-<a href="/sample_page"><h2>Web Scraping News & Twitter Sentiment Analysis of Bitcoin</h2></a>
+<h2><a href="/sample_page">Web Scraping News & Twitter Sentiment Analysis of Bitcoin</a></h2>
 
 Term Project for MIS 670: Social Media Analytics and Web Mining
 
@@ -85,7 +85,7 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 
 ---
 
-<a href="/sample_page"><h2>Real Estate Data Visualization with Tableau</h2></a>
+<h2><a href="/sample_page">Real Estate Data Visualization with Tableau</a></h2>
 
 Term Project for MANGT 830: Information Technology Strategy and Application
 
@@ -99,7 +99,7 @@ Term Project for MANGT 830: Information Technology Strategy and Application
 
 ---
 
-<a href="/pdf/sample_presentation.pdf"><h2>Regression Analysis with Stata</h2></a>
+<h2><a href="/pdf/sample_presentation.pdf">Regression Analysis with Stata</a></h2>
 
 Term Project for ECON 630: Introduction to Econometrics
 
@@ -113,7 +113,7 @@ Term Project for ECON 630: Introduction to Econometrics
 
 ---
 
-<a href="/sample_page"><h2>Something</h2></a>
+<h2><a href="/sample_page">Something</a></h2>
 
 (Project for MIS 665: Business Analytics and Data Mining)
 
