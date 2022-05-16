@@ -9,7 +9,7 @@
 <img src="images/3_pyspark_classification_project.png?raw=true" width="350"/>
 
 ---
-### Reinforcement Learning: Training a Proximal Policy Optimization (PPO) Model to Play Mario Bros 
+### Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros 
 (Project for CIS 731: Introduction to Artificial Intelligence)
 
 * Trained a reinforcement learning agent to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained proximal policy optimization (PPO) model with modifications to the state-space, the action-space, and the reward function.
@@ -19,7 +19,7 @@
 
 ---
 
-### Deep Learning Text Generation Models Trained with Song Lyrics
+### Comparing Deep Learning Text Generation Models Trained with Song Lyrics
 (Project for CIS 732: Machine Learning & Pattern Recognition)
 
 * Trained and evaluated unconditional text generation language models with a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework
