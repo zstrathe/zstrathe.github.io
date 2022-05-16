@@ -3,7 +3,7 @@
 ### Feature Selection & Image Classification using PySpark
 (Project for CIS 730: Programming Techniques for Data Science and Analytics)
 
-* Evaluated methods of feature selection and compared performance of image classification algorithms, entirely using the Apache PySpark distributed computing framework with a data set of 500,000 labeled satellite images
+* Evaluated methods of feature selection and compared performance of image classification algorithms, entirely using the Apache PySpark distributed computing framework, with a data set of 500,000 labeled satellite images
 
 [Link](http://example.com/)<br>
 <img src="images/3_pyspark_classification_project.png?raw=true" width="350"/>
@@ -32,7 +32,7 @@
 ### Statistical Analysis of Home Pricing with Linear Modeling in R
 (Project for STAT 705: Regression and Analysis of Variance)
 
-* Utilized a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model for predictive performance
+* Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model for predictive performance
 
 [Link](http://example.com/)<br>
 <img src="images/8_statistics_linear_model_project.png?raw=true" width="350"/>
