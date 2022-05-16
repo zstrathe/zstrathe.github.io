@@ -20,9 +20,11 @@ Term Project for CIS 731: Introduction to Artificial Intelligence
 * Trained a reinforcement learning agent to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained proximal policy optimization (PPO) model with modifications to the state-space, the action-space, and the reward function.
 
 [Link](/sample_page)<br>
+<p align="center">
 <a href="/sample_page">
   <img src="images/4_reinforcement_learning_project.gif?raw=true" width="350"/>
 </a>
+</p>
 
 ---
 
@@ -32,9 +34,11 @@ Term Project for CIS 732: Machine Learning & Pattern Recognition
 * Trained and evaluated unconditional text generation language models with a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework
 
 [Link](/sample_page)<br>
+<p align="center">
 <a href="/sample_page">
   <img src="images/6_deep_text_generation_project.png?raw=true" width="350"/>
 </a>
+</p>                                                                          
 
 ---
 
@@ -44,9 +48,11 @@ Term Project for STAT 705: Regression and Analysis of Variance
 * Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance
 
 [Link](/sample_page)<br>
+<p align="center">
 <a href="/sample_page">
   <img src="images/8_statistics_linear_model_project.png?raw=true" width="350"/>
 </a>
+</p>
 
 ---
 
@@ -56,9 +62,11 @@ Term Project for GENBA 890: Business Capstone
 * Worked with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain
 
 [Link](/sample_page)<br>
+<p align="center">
 <a href="/sample_page">
   <img src="images/7_capstone_visualization_project.png?raw=true" width="350"/>
 </a>
+</p>
 
 ---
 
@@ -68,9 +76,11 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 * Description
 
 [Link](/sample_page)<br>
+<p align="center">
 <a href="/sample_page">
   <img src="images/1_bitcoin_webscraping_sentiment_analysis_project.png?raw=true" width="350"/> 
 </a>
+</p>
 
 ---
 
@@ -80,9 +90,11 @@ Term Project for MANGT 830: Information Technology Strategy and Application
 * Description
 
 [Link](/sample_page)<br>
+<p align="center">
 <a href="/sample_page">
   <img src="images/5_data_visualiztion_project.png?raw=true" width="350"/>
 </a>
+</p>
 
 ---
 
@@ -92,9 +104,12 @@ Term Project for ECON 630: Introduction to Econometrics
 * Description
 
 [Link](/pdf/sample_presentation.pdf)<br>
-<a href="/sample_page">
-  <img src="images/2_stata_regression_analysis.png?raw=true" width="350"/>
-</a>
+<p align="center">
+  <a href="/sample_page">Link</a><br>
+  <a href="/sample_page">
+    <img src="images/2_stata_regression_analysis.png?raw=true" width="350"/>
+  </a>
+</p>
 
 ---
 
@@ -104,9 +119,11 @@ Term Project for ECON 630: Introduction to Econometrics
 * Description
 
 [Link](/pdf/sample_presentation.pdf)<br>
+<p align="center">
 <a href="/sample_page">
   <img src="images/" width="350"/>
 </a>
+</p>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
