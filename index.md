@@ -7,7 +7,9 @@ Term Project for CIS 730: Programming Techniques for Data Science and Analytics
 * Evaluated methods of feature selection and compared performance of image classification algorithms, entirely using the Apache PySpark distributed computing framework, with a data set of 500,000 labeled satellite images
 
 [Link](/sample_page)<br>
-<img src="images/3_pyspark_classification_project.png?raw=true" width="350"/>
+<a href="/sample_page">
+  <img src="images/3_pyspark_classification_project.png?raw=true" width="350"/>
+</a>
 
 ---
 ## Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros 
@@ -16,8 +18,9 @@ Term Project for CIS 731: Introduction to Artificial Intelligence
 * Trained a reinforcement learning agent to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained proximal policy optimization (PPO) model with modifications to the state-space, the action-space, and the reward function.
 
 [Link](/sample_page)<br>
-<img src="images/4_reinforcement_learning_project.gif?raw=true" width="350"/>
-
+<a href="/sample_page">
+  <img src="images/4_reinforcement_learning_project.gif?raw=true" width="350"/>
+</a>
 ---
 
 ## Comparison of Deep Learning Text Generation Models Trained with Song Lyrics
