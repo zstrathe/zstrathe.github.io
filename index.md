@@ -6,7 +6,7 @@
 * Evaluated methods of feature selection and compared performance of image classification algorithms, entirely using the Apache PySpark distributed computing framework with a data set of 500,000 labeled satellite images
 
 [Link](http://example.com/)<br>
-<img src="images/3_pyspark_classification_project.png?raw=true" width="450" border="10"/>
+<img src="images/3_pyspark_classification_project.png?raw=true" width="450"/>
 
 ---
 ### Reinforcement Learning: Training a Proximal Policy Optimization (PPO) Model to Play Mario Bros 
