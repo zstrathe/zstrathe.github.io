@@ -33,7 +33,7 @@ Term Project for CIS 732: Machine Learning & Pattern Recognition
 ## Statistical Analysis of Home Pricing with Linear Modeling in R
 Term Project for STAT 705: Regression and Analysis of Variance
 
-* Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model for predictive performance
+* Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance
 
 [Link](http://example.com/)<br>
 <img src="images/8_statistics_linear_model_project.png?raw=true" width="350"/>
