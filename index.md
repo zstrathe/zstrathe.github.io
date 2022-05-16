@@ -1,6 +1,6 @@
 # Portfolio - Data Science Projects
 
-### Pyspark Feature Selection and Image Classification 
+### Feature Selection & Image Classification using PySpark
 (Project for CIS 730: Programming Techniques for Data Science and Analytics)
 
 * Evaluated methods of feature selection and compared performance of image classification algorithms, entirely using the Apache PySpark distributed computing framework with a data set of 500,000 labeled satellite images
@@ -19,17 +19,17 @@
 
 ---
 
-### Deep Neural Text Generation Models Trained with Song Lyrics
+### Deep Learning Text Generation Models Trained with Song Lyrics
 (Project for CIS 732: Machine Learning & Pattern Recognition)
 
-* Trained and evaluated unconditional text generation language models with a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python
+* Trained and evaluated unconditional text generation language models with a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework
 
 [Link](http://example.com/)<br>
 <img src="images/6_deep_text_generation_project.png?raw=true" width="450"/>
 
 ---
 
-### Statisttical Analysis of Home Pricing with Linear Modeling
+### Statisttical Analysis of Home Pricing with Linear Modeling in R
 (Project for STAT 705: Regression and Analysis of Variance)
 
 * Utilized a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model for predictive performance
