@@ -101,11 +101,11 @@ Term Project for MANGT 830: Information Technology Strategy and Application
 ## Regression Analysis with Stata
 Term Project for ECON 630: Introduction to Econometrics
 
+[Link](/pdf/sample_presentation.pdf)
+
 * Description
 
-[Link](/pdf/sample_presentation.pdf)<br>
 <p align="center">
-  <a href="/sample_page">Link</a><br>
   <a href="/sample_page">
     <img src="images/2_stata_regression_analysis.png?raw=true" width="350"/>
   </a>
