@@ -1,4 +1,4 @@
-# Portfolio - Data Science Projects
+# Portfolio
 
 ### Feature Selection & Image Classification using PySpark
 (Project for CIS 730: Programming Techniques for Data Science and Analytics)
