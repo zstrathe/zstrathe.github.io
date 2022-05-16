@@ -19,7 +19,7 @@ Term Project for CIS 731: Introduction to Artificial Intelligence
 
 ---
 
-### Comparison of Deep Learning Text Generation Models Trained with Song Lyrics
+## Comparison of Deep Learning Text Generation Models Trained with Song Lyrics
 Term Project for CIS 732: Machine Learning & Pattern Recognition
 
 * Trained and evaluated unconditional text generation language models with a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework
@@ -29,7 +29,7 @@ Term Project for CIS 732: Machine Learning & Pattern Recognition
 
 ---
 
-### Statistical Analysis of Home Pricing with Linear Modeling in R
+## Statistical Analysis of Home Pricing with Linear Modeling in R
 Term Project for STAT 705: Regression and Analysis of Variance
 
 * Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model for predictive performance
@@ -39,7 +39,7 @@ Term Project for STAT 705: Regression and Analysis of Variance
 
 ---
 
-### Data Visualization Business Capstone Project
+## Data Visualization Business Capstone Project
 Term Project for GENBA 890: Business Capstone
 
 * Worked with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain
@@ -49,7 +49,7 @@ Term Project for GENBA 890: Business Capstone
 
 ---
 
-### Web Scraping News & Twitter Sentiment Analysis of Bitcoin
+## Web Scraping News & Twitter Sentiment Analysis of Bitcoin
 Term Project for MIS 670: Social Media Analytics and Web Mining
 
 * Description
@@ -59,7 +59,7 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 
 ---
 
-### Real Estate Data Visualization with Tableau
+## Real Estate Data Visualization with Tableau
 Term Project for MANGT 830: Information Technology Strategy and Application
 
 * Description
@@ -69,7 +69,7 @@ Term Project for MANGT 830: Information Technology Strategy and Application
 
 ---
 
-### Regression Analysis with Stata
+## Regression Analysis with Stata
 Term Project for ECON 630: Introduction to Econometrics
 
 * Description
@@ -79,7 +79,7 @@ Term Project for ECON 630: Introduction to Econometrics
 
 ---
 
-### Someting
+## Someting
 (Project for MIS 665: Business Analytics and Data Mining)
 
 * Description
