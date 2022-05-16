@@ -1,7 +1,7 @@
 # Portfolio
 
 ### Feature Selection & Image Classification using PySpark
-(Project for CIS 730: Programming Techniques for Data Science and Analytics)
+Term Project for CIS 730: Programming Techniques for Data Science and Analytics
 
 * Evaluated methods of feature selection and compared performance of image classification algorithms, entirely using the Apache PySpark distributed computing framework, with a data set of 500,000 labeled satellite images
 
@@ -10,7 +10,7 @@
 
 ---
 ### Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros 
-(Project for CIS 731: Introduction to Artificial Intelligence)
+Term Project for CIS 731: Introduction to Artificial Intelligence
 
 * Trained a reinforcement learning agent to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained proximal policy optimization (PPO) model with modifications to the state-space, the action-space, and the reward function.
 
@@ -20,7 +20,7 @@
 ---
 
 ### Comparing Deep Learning Text Generation Models Trained with Song Lyrics
-(Project for CIS 732: Machine Learning & Pattern Recognition)
+Term Project for CIS 732: Machine Learning & Pattern Recognition
 
 * Trained and evaluated unconditional text generation language models with a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework
 
@@ -30,7 +30,7 @@
 ---
 
 ### Statistical Analysis of Home Pricing with Linear Modeling in R
-(Project for STAT 705: Regression and Analysis of Variance)
+Term Project for STAT 705: Regression and Analysis of Variance
 
 * Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model for predictive performance
 
@@ -40,7 +40,7 @@
 ---
 
 ### Data Visualization Business Capstone Project
-(Project for GENBA 890: Business Capstone)
+Term Project for GENBA 890: Business Capstone
 
 * Worked with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain
 
@@ -50,7 +50,7 @@
 ---
 
 ### Web Scraping News & Twitter Sentiment Analysis of Bitcoin
-(Project for MIS 670: Social Media Analytics and Web Mining)
+Term Project for MIS 670: Social Media Analytics and Web Mining
 
 * Description
 
@@ -60,7 +60,7 @@
 ---
 
 ### Real Estate Data Visualization with Tableau
-(Project for MANGT 830: Information Technology Strategy and Application)
+Term Project for MANGT 830: Information Technology Strategy and Application
 
 * Description
 
@@ -70,7 +70,7 @@
 ---
 
 ### Regression Analysis with Stata
-(Project for ECON 630: Introduction to Econometrics)
+Term Project for ECON 630: Introduction to Econometrics
 
 * Description
 
