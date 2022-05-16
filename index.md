@@ -78,5 +78,15 @@
 <img src="images/2_stata_regression_analysis.png?raw=true" width="450"/>
 
 ---
+
+### Someting
+(Project for MIS 665: Business Analytics and Data Mining)
+
+* Description
+
+[Link](/pdf/sample_presentation.pdf)<br>
+<img src="images/" width="450"/>
+
+---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
