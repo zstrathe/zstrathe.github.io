@@ -29,7 +29,7 @@
 
 ---
 
-### Statisttical Analysis of Home Pricing with Linear Modeling in R
+### Statistical Analysis of Home Pricing with Linear Modeling in R
 (Project for STAT 705: Regression and Analysis of Variance)
 
 * Utilized a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model for predictive performance
