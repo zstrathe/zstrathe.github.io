@@ -12,7 +12,7 @@
 ### Reinforcement Learning: Training a Proximal Policy Optimization (PPO) Model to Play Mario Bros 
 (Project for CIS 731: Introduction to Artificial Intelligence)
 
-* Trained a reinforcement learning agent to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained proximal policy optimization (PPO) model with modifications to the state-space, action-space, and reward function.
+* Trained a reinforcement learning agent to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained proximal policy optimization (PPO) model with modifications to the state-space, the action-space, and the reward function.
 
 [Link](http://example.com/)<br>
 <img src="images/4_reinforcement_learning_project.gif?raw=true" width="450"/>
