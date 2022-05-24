@@ -11,7 +11,7 @@
 	
 - GAN Models (using TextBox library): <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/cis732/Python Code/Model Training Code/GANs_with_Textbox_lib.ipynb">Python Notebook</a>
  	
-	- 'Model Training Code/Modified TextBox files' folder (<a href="https://github.com/zstrathe/zstrathe.github.io/tree/master/code/cis732/Python%20Code/Model%20Training%20Code/Modified%20TextBox%20files">link</a>) contains files from the TextBox library that were modified for training the SeqGAN, TextGAN, and LeakGAN models: 
+	- 'Model Training Code/Modified TextBox files' <a href="https://github.com/zstrathe/zstrathe.github.io/tree/master/code/cis732/Python Code/Model Training Code/Modified TextBox files">folder</a> contains files from the TextBox library that were modified for training the SeqGAN, TextGAN, and LeakGAN models: 
 
 
 #### Python evaluation code:
@@ -21,5 +21,7 @@
 	- Randomly sample generated text and save 10 examples from each model to a .csv file & calculate human evaluation score by displaying a random selection from sampled text and prompting for score, then calculates the average for each model
 
 
-[Back](/)
+---
+
+<a href="/"><h4><u>Back</u></h4></a>
 
