@@ -9,3 +9,8 @@ Term Project for CIS 730: Principles of Artificial Intelligence at Kansas State 
 <a href="pdf/cis730-paper.pdf">Paper</a>
 
 <a href="pdf/cis730-presentation.pdf">Presentation</a>
+
+
+<p align="center">
+    <img src="images/3_pyspark_classification_project.png?raw=true" width="350"/>
+</p>
