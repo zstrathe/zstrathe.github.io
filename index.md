@@ -94,9 +94,7 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 
 * Description
 
-<a href="pdf/mis670_notebook.html">Paper</a>
-
-[Python Code (jupyter notebook)](/code/mis670/mis670_notebook.ipynb)
+<a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a>
 
 <p align="center">
   <img src="images/1_bitcoin_webscraping_sentiment_analysis_project.png?raw=true" width="350"/> 
