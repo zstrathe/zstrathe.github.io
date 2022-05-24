@@ -1,7 +1,7 @@
 # Portfolio
 ---
 
-<h2><a href="/project_cis731">Satellite Image Feature Selection & Classification Using PySpark</a></h2>
+<h2>Satellite Image Feature Selection & Classification Using PySpark</h2>
 
 Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 
@@ -12,14 +12,12 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 <a href="pdf/cis731-presentation.pdf">Presentation</a>
 
 <p align="center">
-  <a href="/project_cis731">
     <img src="images/3_pyspark_classification_project.png?raw=true" width="350"/>
-  </a>
 </p>
 
 ---
 
-<h2><a href="/project_cis730">Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros</a></h2>
+<h2>Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros</h2>
 
 Term Project for CIS 730: Principles of Artificial Intelligence
 
@@ -30,14 +28,12 @@ Term Project for CIS 730: Principles of Artificial Intelligence
 <a href="pdf/cis730-presentation.pdf">Presentation</a>
 
 <p align="center">
-<a href="/project_cis730">
   <img src="images/4_reinforcement_learning_project.gif?raw=true" width="350"/>
-</a>
 </p>
 
 ---
 
-<h2><a href="/project_cis732">Comparison of Deep Learning Text Generation Models Trained with Song Lyrics</a></h2>
+<h2>Comparison of Deep Learning Text Generation Models Trained with Song Lyrics</h2>
 
 Term Project for CIS 732: Machine Learning and Pattern Recognition
 
@@ -49,14 +45,12 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
 
 
 <p align="center">
-<a href="/project_cis732">
   <img src="images/6_deep_text_generation_project.png?raw=true" width="350"/>
-</a>
 </p>                                                                          
 
 ---
 
-<h2><a href="/project_stat705">Statistical Analysis of Home Pricing with Linear Modeling in R</a></h2>
+<h2>Statistical Analysis of Home Pricing with Linear Modeling in R</h2>
 
 Term Project for STAT 705: Regression and Analysis of Variance
 
@@ -67,45 +61,39 @@ Term Project for STAT 705: Regression and Analysis of Variance
 <a href="pdf/stat705-presentation.pdf">Presentation</a>
 
 <p align="center">
-<a href="/project_stat705">
   <img src="images/8_statistics_linear_model_project.png?raw=true" width="350"/>
-</a>
 </p>
 
 ---
 
-<h2><a href="/project_genba890">Data Visualization Business Capstone Project</a></h2>
+<h2>Data Visualization Business Capstone Project</h2>
 
 Term Project for GENBA 890: Business Capstone
 
 * Worked with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain
-* Due to confidential data used in this project, I cannot share the deliverables; however, the presentation linked below is a summary that was presented at the K-State Business School Graduate School Advisory Council Meeting on May 4th, 2022, and includes randomized data in visualizations
+* Due to confidential data used in this project, I cannot share the deliverables; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, and includes randomized data in visualizations
 
 <a href="pdf/genba890-presentation.pdf">Presentation</a>
 
 <p align="center">
-<a href="/project_genba890">
   <img src="images/7_capstone_visualization_project.png?raw=true" width="350"/>
-</a>
 </p>
 
 ---
 
-<h2><a href="/project_mis670">Web Scraping News & Twitter Sentiment Analysis of Bitcoin</a></h2>
+<h2>Web Scraping News & Twitter Sentiment Analysis of Bitcoin</h2>
 
 Term Project for MIS 670: Social Media Analytics and Web Mining
 
 * Description
 
 <p align="center">
-<a href="/project_mis670">
   <img src="images/1_bitcoin_webscraping_sentiment_analysis_project.png?raw=true" width="350"/> 
-</a>
 </p>
 
 ---
 
-<h2><a href="/project_mangt830">Real Estate Data Visualization with Tableau</a></h2>
+<h2>Real Estate Data Visualization with Tableau</h2>
 
 Term Project for MANGT 830: Information Technology Strategy and Application
 
@@ -116,14 +104,12 @@ Term Project for MANGT 830: Information Technology Strategy and Application
 <a href="pdf/mangt830-presentation.pdf">Presentation</a>
 
 <p align="center">
-<a href="/project_mangt830">
   <img src="images/5_data_visualiztion_project.png?raw=true" width="350"/>
-</a>
 </p>
 
 ---
 
-<h2><a href="/project_econ830">Regression Analysis with Stata</a></h2>
+<h2>Regression Analysis with Stata</h2>
 
 Term Project for ECON 630: Introduction to Econometrics
 
@@ -131,17 +117,13 @@ Term Project for ECON 630: Introduction to Econometrics
 
 <a href="pdf/econ830-paper.pdf">Paper</a>
 
-<a href="pdf/econ830-presentation.pdf">Presentation</a>
-
 <p align="center">
-  <a href="/project_econ830">
     <img src="images/2_stata_regression_analysis.png?raw=true" width="350"/>
-  </a>
 </p>
 
 ---
 
-<h2><a href="/project_mis665">Something</a></h2>
+<h2>Something</h2>
 
 (Project for MIS 665: Business Analytics and Data Mining)
 
@@ -152,9 +134,7 @@ Term Project for ECON 630: Introduction to Econometrics
 <a href="pdf/mis665-presentation.pdf">Presentation</a>
 
 <p align="center">
-<a href="/project_mis665">
   <img src="images/" width="350"/>
-</a>
 </p>
 
 ---
