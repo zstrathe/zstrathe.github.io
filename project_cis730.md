@@ -1,4 +1,4 @@
-[Back]
+[Back](/)
 
 # Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros
 
