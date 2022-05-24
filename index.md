@@ -58,6 +58,8 @@ Term Project for STAT 705: Regression and Analysis of Variance
 
 <a href="pdf/stat705-paper.pdf">Paper</a>
 
+<a href="pdf/stat705-presentation.pdf">Presentation</a>
+
 <p align="center">
   <img src="images/8_statistics_linear_model_project.png?raw=true" width="350"/>
 </p>
