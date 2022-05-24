@@ -47,7 +47,7 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
 
 <a href="pdf/cis732_presentation.pdf">Presentation</a>
 
-[Python Code](https://github.com/zstrathe/zstrathe.github.io/tree/master/code/cis732)
+[Python Code](/code/cis732)
 
 <p align="center">
   <img src="images/6_deep_text_generation_project.png?raw=true" width="350"/>
