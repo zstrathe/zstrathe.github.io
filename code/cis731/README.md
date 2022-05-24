@@ -5,10 +5,10 @@
 #### To run [the main data processing notebook](https://github.com/zstrathe/zstrathe.github.io/blob/master/code/cis731/cis731_model_training_and_evaluation.ipynb):
 - recommend a minimum of 64 GB memory and 16 CPU cores (the specs of the Google Cloud VM that I used)
 - dataset .csv files need to be uploaded to the directory where the notebook is being executed 
-		- X_test_sat4.csv
-		- X_train_sat4.csv
-		- y_test_sat4.csv
-		- y_train_sat4.csv
+	- X_test_sat4.csv
+	- X_train_sat4.csv 
+	- y_test_sat4.csv 
+	- y_train_sat4.csv
 
 
 #### To run [the visualizations notebook](https://github.com/zstrathe/zstrathe.github.io/blob/master/code/cis731/cis731_visualizations.ipynb), for showing predictions and images:
