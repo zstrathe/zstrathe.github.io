@@ -7,11 +7,11 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 
 * Evaluated methods of feature selection and compared performance of image classification algorithms, entirely using the Apache PySpark distributed computing framework, with a data set of 500,000 labeled satellite images
 
-[Python Code](/code/cis731)
-
 <a href="pdf/cis731_paper.pdf">Paper</a>
 
 <a href="pdf/cis731_presentation.pdf">Presentation</a>
+
+[Python Code](/code/cis731)
 
 <p align="center">
     <img src="images/3_pyspark_classification_project.png?raw=true" width="350"/>
@@ -25,11 +25,11 @@ Term Project for CIS 730: Principles of Artificial Intelligence
 
 * Trained a reinforcement learning agent to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained proximal policy optimization (PPO) model with modifications to the state-space, the action-space, and the reward function.
 
-[Python Code](/code/cis730)
-
 <a href="pdf/cis730_paper.pdf">Paper</a>
 
 <a href="pdf/cis730_presentation.pdf">Presentation</a>
+
+[Python Code](/code/cis730)
 
 <p align="center">
   <img src="images/4_reinforcement_learning_project.gif?raw=true" width="350"/>
@@ -43,12 +43,11 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
 
 * Trained and evaluated unconditional text generation language models with a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework
 
-[Python Code](/code/cis732)
-
 <a href="pdf/cis732_paper.pdf">Paper</a>
 
 <a href="pdf/cis732_presentation.pdf">Presentation</a>
 
+[Python Code](/code/cis732)
 
 <p align="center">
   <img src="images/6_deep_text_generation_project.png?raw=true" width="350"/>
@@ -62,11 +61,11 @@ Term Project for STAT 705: Regression and Analysis of Variance
 
 * Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance
 
-[R Code](/code/stat705)
-
 <a href="pdf/stat705_paper.pdf">Paper</a>
 
 <a href="pdf/stat705_presentation.pdf">Presentation</a>
+
+[R Code](/code/stat705/stat705_code.html)
 
 <p align="center">
   <img src="images/8_statistics_linear_model_project.png?raw=true" width="350"/>
@@ -95,9 +94,9 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 
 * Description
 
-<a href="pdf/mis670_paper.pdf">Paper</a>
+<a href="pdf/mis670_notebook.html">Paper</a>
 
-[Jupyter Notebook](/code/mis670/mis670_notebook.html)
+[Python Code (jupyter notebook)](/code/mis670/mis670_notebook.ipynb)
 
 <p align="center">
   <img src="images/1_bitcoin_webscraping_sentiment_analysis_project.png?raw=true" width="350"/> 
