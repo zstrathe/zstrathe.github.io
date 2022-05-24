@@ -7,6 +7,10 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 
 * Evaluated methods of feature selection and compared performance of image classification algorithms, entirely using the Apache PySpark distributed computing framework, with a data set of 500,000 labeled satellite images
 
+<a href="pdf/cis731-paper.pdf">Paper</a>
+
+<a href="pdf/cis731-presentation.pdf">Presentation</a>
+
 <p align="center">
   <a href="/project_cis731">
     <img src="images/3_pyspark_classification_project.png?raw=true" width="350"/>
@@ -20,6 +24,10 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 Term Project for CIS 730: Principles of Artificial Intelligence
 
 * Trained a reinforcement learning agent to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained proximal policy optimization (PPO) model with modifications to the state-space, the action-space, and the reward function.
+
+<a href="pdf/cis730-paper.pdf">Paper</a>
+
+<a href="pdf/cis730-presentation.pdf">Presentation</a>
 
 <p align="center">
 <a href="/project_cis730">
@@ -35,6 +43,11 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
 
 * Trained and evaluated unconditional text generation language models with a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework
 
+<a href="pdf/cis732-paper.pdf">Paper</a>
+
+<a href="pdf/cis732-presentation.pdf">Presentation</a>
+
+
 <p align="center">
 <a href="/project_cis732">
   <img src="images/6_deep_text_generation_project.png?raw=true" width="350"/>
@@ -49,6 +62,10 @@ Term Project for STAT 705: Regression and Analysis of Variance
 
 * Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance
 
+<a href="pdf/stat705-paper.pdf">Paper</a>
+
+<a href="pdf/stat705-presentation.pdf">Presentation</a>
+
 <p align="center">
 <a href="/project_stat705">
   <img src="images/8_statistics_linear_model_project.png?raw=true" width="350"/>
@@ -62,6 +79,9 @@ Term Project for STAT 705: Regression and Analysis of Variance
 Term Project for GENBA 890: Business Capstone
 
 * Worked with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain
+* Due to confidential data used in this project, I cannot share the deliverables; however, the presentation linked below is a summary that was presented at the K-State Business School Graduate School Advisory Council Meeting on May 4th, 2022, and includes randomized data in visualizations
+
+<a href="pdf/genba890-presentation.pdf">Presentation</a>
 
 <p align="center">
 <a href="/project_genba890">
@@ -91,6 +111,10 @@ Term Project for MANGT 830: Information Technology Strategy and Application
 
 * Description
 
+<a href="pdf/mangt830-paper.pdf">Paper</a>
+
+<a href="pdf/mangt830-presentation.pdf">Presentation</a>
+
 <p align="center">
 <a href="/project_mangt830">
   <img src="images/5_data_visualiztion_project.png?raw=true" width="350"/>
@@ -105,6 +129,10 @@ Term Project for ECON 630: Introduction to Econometrics
 
 * Description
 
+<a href="pdf/econ830-paper.pdf">Paper</a>
+
+<a href="pdf/econ830-presentation.pdf">Presentation</a>
+
 <p align="center">
   <a href="/project_econ830">
     <img src="images/2_stata_regression_analysis.png?raw=true" width="350"/>
@@ -118,6 +146,10 @@ Term Project for ECON 630: Introduction to Econometrics
 (Project for MIS 665: Business Analytics and Data Mining)
 
 * Description
+
+<a href="pdf/mis665-paper.pdf">Paper</a>
+
+<a href="pdf/mis665-presentation.pdf">Presentation</a>
 
 <p align="center">
 <a href="/project_mis665">
