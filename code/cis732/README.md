@@ -1,4 +1,4 @@
-[Back](/)
+## CIS 732 Project: Python Code
 
 #### Python code for scraping lyrics from web: 
 - <a href="/Data Collection Code/WebScraping_SongLyrics.ipynb">Python Notebook</a>
@@ -18,6 +18,8 @@
 - Calculate BLEU scores for generated text: <a href="/Text Sampling and Evaluation Code/bleu_evaluation.ipynb">Python Notebook</a>
 
 - Random sample and calculate human score: <a href="/Text Sampling and Evaluation Code/select_and_evaluate.ipynb">Python Notebook</a>
-	- Randomly sample generated text and save 10 examples from each model to a .csv file & calculate human evaluation score by displaying a random selection from sampled text and prompting for score, then calculates the average for each model:
-	 
+	- Randomly sample generated text and save 10 examples from each model to a .csv file & calculate human evaluation score by displaying a random selection from sampled text and prompting for score, then calculates the average for each model
+
+
+[Back](/)
 
