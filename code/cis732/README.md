@@ -1,18 +1,18 @@
 Python code for scraping lyrics from web:
-	- Data Collection Code/WebScraping_SongLyrics.ipynb
+	[Python Notebook](/Data Collection Code/WebScraping_SongLyrics.ipynb)
 
 Python Language Model Training Code:
 	- Baseline RNN:
-		- Model Training Code/Baseline_RNN.ipynb
+		- [Python Notebook](/Model Training Code/Baseline_RNN.ipynb)
 	
 	- RNN with tuned hyperparameters:
-		- Model Training Code/RNN.ipynb
+		- [Python Notebook](/Model Training Code/RNN.ipynb)
 	
 	- GAN Models (using TextBox library)
 	  Trained SeqGAN, TextGAN, and LeakGAN
           'Model Training Code/Modified TextBox files' folder contains 
 	  files from the TextBox library that were modified:
-		- Model Training Code/GANs_with_Textbox_lib.ipynb
+		- [Python Notebook](/Model Training Code/GANs_with_Textbox_lib.ipynb)
 
 Python evaluation code:
 	- Calculate BLEU scores for generated text:
