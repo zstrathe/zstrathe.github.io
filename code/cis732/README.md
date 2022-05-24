@@ -17,11 +17,11 @@
 #### Python evaluation code:
 - Calculate BLEU scores for generated text: <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/cis732/Python Code/Text Sampling and Evaluation Code/bleu_evaluation.ipynb">Python Notebook</a>
 
-- Random sample and calculate human score: <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/cis732/Python Code/Text Sampling and Evaluation Code/select_and_evaluate.ipynb">Python Notebook</a>
+- Random sample and calculate human score: <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/cis732/Python Code/Text Sampling and Evaluation Code/select_and_evaluate.py">Python File</a>
 	- Randomly sample generated text and save 10 examples from each model to a .csv file & calculate human evaluation score by displaying a random selection from sampled text and prompting for score, then calculates the average for each model
 
 
 ---
 
-<a href="/"><h4><u>Back</u></h4></a>
+<a href="/"><h3>Back</h3></a>
 
