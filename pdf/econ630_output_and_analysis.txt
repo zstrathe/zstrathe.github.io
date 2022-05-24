@@ -1,0 +1,233 @@
+--------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Zack\Desktop\KSTATE\SPRING 21\ECON630\final_proj\empirical_final_strathe.txt
+  log type:  text
+ opened on:   5 May 2021, 20:16:15
+
+. 
+. use "C:\Users\Zack\Desktop\KSTATE\SPRING 21\ECON630\final_proj\BWGHT.dta", clear /* open data */
+
+. 
+. * 1. Getting started
+. global vars bwght cigs faminc fatheduc motheduc parity male white 
+
+. 
+. gen smoker = cigs > 0 if cigs !=. /* create "smoker" dummy variable: 0 if no cigarettes, 1 if any positive amount 
+> */
+
+. label var smoker "Smoking Status" 
+
+. 
+. quietly sum faminc, detail /* generate additional detail for "faminc", need the median */
+
+. 
+. gen highinc = faminc >= r(p50) if faminc !=. /* create highinc dummy variable: 1 if faminc > median, 0 if below me
+> dian */
+
+. 
+. * 2. Descriptive Statistics
+. tabstat $vars, stat(n mean median sd) col(stat) longstub /* create table with mean, median, std dev, and num of ob
+> servations for variables in macro */
+
+    variable |         N      mean       p50        sd
+-------------+----------------------------------------
+       bwght |      1388  118.6996       120  20.35396
+        cigs |      1388  2.087176         0  5.972688
+      faminc |      1388  29.02666      27.5  18.73928
+    fatheduc |      1192  13.18624        12  2.745985
+    motheduc |      1387  12.93583        12  2.376728
+      parity |      1388  1.632565         1  .8940273
+        male |      1388  .5208934         1  .4997433
+       white |      1388  .7845821         1  .4112601
+------------------------------------------------------
+
+. 
+. * Q: What do you notice in this table that you might want to report to your reader/audience.
+. 
+. * A: From the general descriptive statistics, we can see a few observations about the entire data set. First, it a
+> ppears that there is a fairly significant variance in the "bwght" variable, with a standard deviation of 20.35. In
+>  addition, the "cigs" variable having a mean of 2.08 gives the impression that there may be a bias in sampling tow
+> ard smokers, though the median value of 0 shows that there are likely a roughly equal number of smokers and non-sm
+> okers (and those who smoke a lot had an impact on the mean value being higher). Also with 'male' variable having a
+>  mean of 0.52 and 'white' having a mean of 0.78, shows that overall the sampling should be an accurate representat
+> ion of the population in 1988.
+. 
+. tabstat $vars, by(smoker) stat(n mean median sd) col(stat) longstub  /* create table with summary statistics by "s
+> moker" subsamples */
+
+smoker       variable |         N      mean       p50        sd
+----------------------+----------------------------------------
+0               bwght |      1176  120.0612       121  20.26849
+                 cigs |      1176         0         0         0
+               faminc |      1176  30.48852      27.5  18.95627
+             fatheduc |      1031  13.38894        13  2.768939
+             motheduc |      1175  13.17021        12  2.396398
+               parity |      1176  1.616497         1  .8953972
+                 male |      1176  .5297619         1  .4993258
+                white |      1176  .7857143         1  .4105005
+----------------------+----------------------------------------
+1               bwght |       212  111.1462       112  19.18141
+                 cigs |       212  13.66509        10  8.690907
+               faminc |       212  20.91745      18.5   15.1425
+             fatheduc |       161   11.8882        12  2.193723
+             motheduc |       212  11.63679        12  1.775335
+               parity |       212  1.721698         1  .8831766
+                 male |       212  .4716981         0  .5003799
+                white |       212  .7783019         1  .4163722
+----------------------+----------------------------------------
+Total           bwght |      1388  118.6996       120  20.35396
+                 cigs |      1388  2.087176         0  5.972688
+               faminc |      1388  29.02666      27.5  18.73928
+             fatheduc |      1192  13.18624        12  2.745985
+             motheduc |      1387  12.93583        12  2.376728
+               parity |      1388  1.632565         1  .8940273
+                 male |      1388  .5208934         1  .4997433
+                white |      1388  .7845821         1  .4112601
+---------------------------------------------------------------
+
+. 
+. * Q: Are there substantial differences in the characteristics of smokers and smokers? (You do not need to run any 
+> additional hypothesis testing, eyeballing is fine for this question.) Based on these results, would you feel comfo
+> rtable calling the raw (unadjusted) differences in birthweight the “causal effect of smoking”? Why or why not?
+. 
+. * A: Immediately one can see that there are substantial differences in the "bwght", "faminc", "fatheduc", and "mot
+> heduc" variables. In the "smoker" subsample, all of these variables are lower than the "non-smoker" subsample. Bas
+> ed on these results, the conclusion would be that those who smoke have lower income and less years of education, a
+> nd their children tend to have a lower birthweight. However, I would not be comfortable calling the difference in 
+> birthweight the causal effect of smoking. Just looking at the table with mean and standard deviation values, shows
+>  no information on whether there is causation between smoking and birthweight. Smoking may be correlated with a lo
+> wer birthweight, but there could be other omitted variables (such as data on mother's nutrition) that have a much 
+> more significant impact on birthweight.
+. 
+. tab smoker highinc, row nofreq
+
+   Smoking |        highinc
+    Status |         0          1 |     Total
+-----------+----------------------+----------
+         0 |     45.32      54.68 |    100.00 
+         1 |     67.92      32.08 |    100.00 
+-----------+----------------------+----------
+     Total |     48.78      51.22 |    100.00 
+
+. 
+. * Q: What would you conclude from this cross-tab? Again, do not worry about statistical significance here.
+. 
+. * A: The cross tabulation shows that, for non-smokers, there is a 9.4% higher likelihood that they will have highe
+> r than median income (54.68% - 45.32% = 9.36%). For smokers, it shows that they are 35.8% more likely to have lowe
+> r than the median income (67.92% - 32.08% = 35.84%).
+. 
+. * 3. Graph
+. hist motheduc if smoker==0, title(mother's education for non-smokers) nodraw
+(bin=30, start=2, width=.53333333)
+
+. graph save histogram_nonsmoker
+(file histogram_nonsmoker.gph saved)
+
+. hist motheduc if smoker==1, title(mother's education for smokers) nodraw
+(bin=14, start=6, width=.85714286)
+
+. graph save histogram_smoker 
+(file histogram_smoker.gph saved)
+
+. graph combine histogram_nonsmoker.gph histogram_smoker.gph, xcomm ycomm commonscheme
+
+. graph export "C:\Users\Zack\Desktop\KSTATE\SPRING 21\ECON630\final_proj\educbysmoke.png" 
+(file C:\Users\Zack\Desktop\KSTATE\SPRING 21\ECON630\final_proj\educbysmoke.png written in PNG format)
+
+. 
+. * Q: What differences, if any, do you notice in these two distributions?
+. 
+. * A: What I immediately notice in this graph is that the spread in 'years of education' is roughly similar in both
+>  graphs, but in the 'non-smokers' graph, there is a higher density for non-smokers with 15 or more years of educat
+> ion. If a normal curve were drawn over each graph, the curve should be shifted further to the right on the non-smo
+> kers graph.
+. 
+. graph twoway (scatter bwght cigs) (lfit bwght cigs), title(Birthweight and Cigarettes Smoked per Day)
+
+. graph export "C:\Users\Zack\Desktop\KSTATE\SPRING 21\ECON630\final_proj\bwghtcigs.png" 
+(file C:\Users\Zack\Desktop\KSTATE\SPRING 21\ECON630\final_proj\bwghtcigs.png written in PNG format)
+
+. 
+. * Q: Before running any regressions, what do you notice about these data?
+. 
+. * A: It appears that there is a negative correlation between birthweight and cigarettes smoked per day, as the fit
+> ted line has a negative slope. However, the slope of the line is not highly negative. And looking at some of the p
+> lotted points on the graph, it is apparent that there are many births from a non-smoker mother that were much lowe
+> r than even a mother who smoked >= 40 cigarettes per day. So without further analysis of the data, I still do not 
+> think that a causal relationship between smoking and birthweight can be concluded, as we still don't know the sign
+> ificance of the relationship between smoking and birthweight.
+. 
+. * 4. Regression Analysis
+. reg bwght cigs, robust
+
+Linear regression                               Number of obs     =      1,388
+                                                F(1, 1386)        =      34.29
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0227
+                                                Root MSE          =     20.129
+
+------------------------------------------------------------------------------
+             |               Robust
+       bwght |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+        cigs |  -.5137721   .0877334    -5.86   0.000    -.6858767   -.3416675
+       _cons |   119.7719   .5745494   208.46   0.000     118.6448     120.899
+------------------------------------------------------------------------------
+
+. reg bwght cigs faminc, robust
+
+Linear regression                               Number of obs     =      1,388
+                                                F(2, 1385)        =      22.11
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0298
+                                                Root MSE          =     20.063
+
+------------------------------------------------------------------------------
+             |               Robust
+       bwght |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+        cigs |  -.4634075   .0887594    -5.22   0.000     -.637525   -.2892901
+      faminc |   .0927647   .0285864     3.25   0.001     .0366875     .148842
+       _cons |   116.9741   1.037207   112.78   0.000     114.9395    119.0088
+------------------------------------------------------------------------------
+
+. reg bwght cigs faminc parity male white motheduc, robust
+
+Linear regression                               Number of obs     =      1,387
+                                                F(6, 1380)        =      13.68
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.0526
+                                                Root MSE          =     19.859
+
+------------------------------------------------------------------------------
+             |               Robust
+       bwght |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+        cigs |  -.4864302   .0915172    -5.32   0.000    -.6659582   -.3069023
+      faminc |   .0591903   .0323814     1.83   0.068    -.0043319    .1227125
+      parity |   1.805121   .5998189     3.01   0.003     .6284653    2.981776
+        male |   3.176597   1.064197     2.98   0.003     1.088979    5.264215
+       white |   5.678583    1.43134     3.97   0.000     2.870746     8.48642
+    motheduc |   .0793044   .2372861     0.33   0.738     -.386176    .5447849
+       _cons |    107.921   3.397986    31.76   0.000     101.2552    114.5868
+------------------------------------------------------------------------------
+
+. 
+. * Q: Write a summary of what you would conclude based on this entire table of results.
+. 
+. * A: Based on the regression table including the faminc, parity, male, white, and motheduc control variables, the 
+> conclusion is that for each cigarette smoked per day by a pregnant mother, we could expect a decrease in birthweig
+> ht of 0.49 ounces. The control variables also give some insight, with a $1,000 increase in family income increasin
+> g birthweight by 0.06 ounces and parity attributing 1.8 ounces to birthweight. The dummy variables indicate that a
+>  male will be roughly 3.18 ounces heavier, and similarly 5.68 ounces heavier if white. As far as statistical signi
+> ficance, the variables 'faminc' and 'motheduc' appear to lack individual statistical significance at the 5% level,
+>  though faminc is significant at the 10% level with a 0.068 p-value. 'Motheduc' has a p-value of 0.738 and individ
+> ually is not statistically significant at any level in this model (though it may still be jointly significant with
+>  other variables).  
+. 
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Zack\Desktop\KSTATE\SPRING 21\ECON630\final_proj\empirical_final_strathe.txt
+  log type:  text
+ closed on:   5 May 2021, 20:16:25
+--------------------------------------------------------------------------------------------------------------------
