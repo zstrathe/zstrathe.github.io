@@ -11,12 +11,12 @@
 		- y_train_sat4.csv
 
 
-#### To run [the visualizations notebook](https://github.com/zstrathe/zstrathe.github.io/blob/master/code/cis731/cis731_visualizations.ipynb) showing predictions and images:
+#### To run [the visualizations notebook](https://github.com/zstrathe/zstrathe.github.io/blob/master/code/cis731/cis731_visualizations.ipynb), for showing predictions and images:
 - Can be run in a free Google Colab instance
 - Upload predictions file 
 	- to Colab working directory
 	- or to Google Drive and use google.colab.drive.mount (as implemented in the notebook)
-- Predictions file link: https://www.mediafire.com/file/p6kb8s4q2p92ig0/6_predictions.csv/file
+- <a href="https://www.mediafire.com/file/p6kb8s4q2p92ig0/6_predictions.csv/file">Predictions file link</a>
 
 
 ---
