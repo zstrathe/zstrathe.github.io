@@ -1,4 +1,4 @@
-## CIS 732 Project: Python Code
+## Python Code: Text Generation Models Trained with Song Lyrics Project
 
 #### Python code for scraping lyrics from web: 
 - <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/cis732/Python Code/Data Collection Code/WebScraping_SongLyrics.ipynb">Python Notebook</a>
