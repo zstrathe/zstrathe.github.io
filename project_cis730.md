@@ -12,5 +12,5 @@ Term Project for CIS 730: Principles of Artificial Intelligence at Kansas State 
 
 
 <p align="center">
-    <img src="images/reinforcement_learning_project.gif?raw=true" width="350"/>
+    <img src="images/4_reinforcement_learning_project.gif?raw=true" width="350"/>
 </p>
