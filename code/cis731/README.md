@@ -1,4 +1,4 @@
-## Satellite Image Classification Project: Python Code
+## Python Code: Satellite Image Classification Project
 
 #### Link to Kaggle dataset: https://www.kaggle.com/crawford/deepsat-sat4
 
