@@ -97,7 +97,7 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 
 <a href="pdf/mis670_paper.pdf">Paper</a>
 
-[Jupyter Notebook](/code/mis670/mis670_notebook.ipynb)
+[Jupyter Notebook](/code/mis670/mis670_notebook.html)
 
 <p align="center">
   <img src="images/1_bitcoin_webscraping_sentiment_analysis_project.png?raw=true" width="350"/> 
@@ -112,8 +112,6 @@ Term Project for MANGT 830: Information Technology Strategy and Application
 * Description
 
 <a href="pdf/mangt830_paper.pdf">Paper</a>
-
-<a href="pdf/mangt830_presentation.pdf">Presentation</a>
 
 <p align="center">
   <img src="images/5_data_visualiztion_project.png?raw=true" width="350"/>
