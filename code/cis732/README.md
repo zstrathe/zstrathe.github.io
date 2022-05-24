@@ -9,7 +9,7 @@
 	
 - GAN Models (using TextBox library): <a href="/Model Training Code/GANs_with_Textbox_lib.ipynb">Python Notebook</a>
  	
-	- 'Model Training Code/Modified TextBox files' folder (<a href="https://github.com/zstrathe/zstrathe.github.io/tree/master/code/cis732/Python%20Code/Model%20Training%20Code/Modified%20TextBox%20files)">link</a>) contains files from the TextBox library that were modified for training the SeqGAN, TextGAN, and LeakGAN models: 
+	- 'Model Training Code/Modified TextBox files' folder (<a href="https://github.com/zstrathe/zstrathe.github.io/tree/master/code/cis732/Python%20Code/Model%20Training%20Code/Modified%20TextBox%20files">link</a>) contains files from the TextBox library that were modified for training the SeqGAN, TextGAN, and LeakGAN models: 
 
 
 #### Python evaluation code:
