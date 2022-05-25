@@ -26,7 +26,7 @@
 - retro/data/stable/MarioBros-Nes/updated_scenario_cropping.json
   - Added cropping of the game image
 
-- retro/data/stable/MarioBros-Nes/updated_scenario_reward_function.json
+- retro/data/stable/MarioBros-Nes/updated_scenario_reward_func.json
   - Updated scenario for new reward function based on enemies remaining instead of game score
 
 - retro/data/stable/MarioBros-Nes/rom.nes
