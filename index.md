@@ -23,7 +23,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 
 Term Project for CIS 730: Principles of Artificial Intelligence
 
-* Trained a reinforcement learning agent to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained proximal policy optimization (PPO) model with modifications to the state-space, the action-space, and the reward function.
+* Trained a reinforcement learning model to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained proximal policy optimization (PPO) model with modifications to the state-space, the action-space, and the reward function.
 
 <a href="pdf/cis730_paper.pdf">Paper</a>
 
