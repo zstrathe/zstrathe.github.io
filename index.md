@@ -73,7 +73,7 @@ Term Project for STAT 705: Regression and Analysis of Variance
 
 ---
 
-<h2>Data Visualization Business Capstone Project</h2>
+<h2>Business Capstone Data Visualization Project</h2>
 
 Term Project for GENBA 890: Business Capstone
 
