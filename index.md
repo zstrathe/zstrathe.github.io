@@ -114,35 +114,7 @@ Term Project for MANGT 830: Information Technology Strategy and Application
   <img src="images/5_data_visualiztion_project.png?raw=true" width="350"/>
 </p>
 
----
 
-<h2>Regression Analysis with Stata</h2>
-
-Term Project for ECON 630: Introduction to Econometrics
-
-* Description
-
-<a href="pdf/econ830_paper.pdf">Paper</a>
-
-<p align="center">
-    <img src="images/2_stata_regression_analysis.png?raw=true" width="350"/>
-</p>
-
----
-
-<h2>Something</h2>
-
-(Project for MIS 665: Business Analytics and Data Mining)
-
-* Description
-
-<a href="pdf/mis665_paper.pdf">Paper</a>
-
-<a href="pdf/mis665_presentation.pdf">Presentation</a>
-
-<p align="center">
-  <img src="images/" width="350"/>
-</p>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
