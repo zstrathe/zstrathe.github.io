@@ -78,7 +78,7 @@ Term Project for STAT 705: Regression and Analysis of Variance
 Term Project for GENBA 890: Business Capstone
 
 * Worked with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain
-* I cannot share the deliverables due to confidential data used in this project; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in recommended visualization examples
+* I cannot share the deliverables due to confidential data used in this project; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the recommended visualization examples
 
 <a href="pdf/genba890_presentation.pdf">Presentation</a>
 
