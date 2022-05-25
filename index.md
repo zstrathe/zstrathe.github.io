@@ -5,7 +5,7 @@
 
 Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 
-* Evaluated methods of feature selection and compared performance of image classification algorithms with a data set of 500,000 labeled satellite images, entirely using the Apache PySpark distributed computing framework
+* Evaluated methods of feature selection and compared performance of classification algorithms with a data set of 500,000 labeled satellite images, entirely using the Apache PySpark distributed computing framework
 
 <a href="pdf/cis731_paper.pdf">Paper</a>
 
