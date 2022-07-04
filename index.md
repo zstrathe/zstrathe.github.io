@@ -29,7 +29,7 @@ Term Project for CIS 730: Principles of Artificial Intelligence
 
 * Trained a deep reinforcement learning model to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained Proximal Policy Optimization (PPO) model with modifications to the state-space, the action-space, and the reward function.
 
-* Developed and evaluated utilizing a Google Cloud Platform virtual machine with a 8-core vCPU and a Tesla T4 GPU
+* Developed and trained utilizing a Google Cloud Platform virtual machine with a 8-core vCPU and a Tesla T4 GPU
 
 * Technologies used: Python, OpenAI Gym, OpenAI Baselines (PPO algorithm), TensorFlow, GCP
 
