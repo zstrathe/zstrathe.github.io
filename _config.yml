@@ -1,11 +1,11 @@
 title: Zack Strathe # your name (or website title) here
-logo: "" # your photo (or logo) here /images/profile.jpg?raw=true
+#logo: "/images/profile.jpg?raw=true" your photo (or logo) here 
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <b>M.S. Data Analytics at Kansas State University
   <br>
   - Data Science Track
   <br>
-  - Completion: August 2022
+  - Completion Date: August 2022
   </b>
   <br><br>
   <a href="/pdf/ZackStratheResume.pdf"><b>Résumé</b></a>
