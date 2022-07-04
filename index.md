@@ -95,7 +95,7 @@ Term Project for GENBA 890: Business Capstone
 
 * I can't share the deliverables due to confidential data used in this project; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the recommended visualization examples
 
-* Technologies used: Python, Plotly (Python module for visualization), PowerBI
+* Technologies used: Python, Plotly, PowerBI
 
 <a href="pdf/genba890_presentation.pdf">Presentation</a>
 
