@@ -109,9 +109,9 @@ Term Project for GENBA 890: Business Capstone
 
 Term Project for MIS 670: Social Media Analytics and Web Mining
 
-* Description
+* Utilized web scraping with Python to collect news articles and historical price information about Bitcoin, and performed sentiment analysis on news articles to calculate the average aggregate sentiment per year to compare with annual Bitcoin price changes. Also utilized the Twitter API to collect and process tweets about Bitcoin to perform further sentiment analysis and network analytics
 
-* Technologies used: Python
+* Technologies used: Python, Natural Language Toolkit (NLTK), Pandas, Matplotlib
 
 <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a>
 
