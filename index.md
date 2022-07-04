@@ -7,6 +7,10 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 
 * Evaluated methods of feature selection and compared performance of classification algorithms with a data set of 500,000 labeled satellite images, entirely using the Apache PySpark distributed computing framework
 
+* Deployed a Spark cluster on Amazon Web Services Elastic MapReduce to test functionality; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for develpoment and evaluation (to save on costs of running a real Spark cluster)
+
+* Technologies used: PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP
+
 <a href="pdf/cis731_paper.pdf">Paper</a>
 
 <a href="pdf/cis731_presentation.pdf">Presentation</a>
@@ -23,7 +27,11 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 
 Term Project for CIS 730: Principles of Artificial Intelligence
 
-* Trained a deep reinforcement learning model to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained PPO model with modifications to the state-space, the action-space, and the reward function.
+* Trained a deep reinforcement learning model to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained Proximal Policy Optimization (PPO) model with modifications to the state-space, the action-space, and the reward function.
+
+* Developed and evaluated utilizing a Google Cloud Platform virtual machine with a 8-core vCPU and a Tesla T4 GPU
+
+* Technologies used: Python, OpenAI Gym, OpenAI Baselines (PPO algorithm), TensorFlow, GCP
 
 <a href="pdf/cis730_paper.pdf">Paper</a>
 
@@ -41,7 +49,11 @@ Term Project for CIS 730: Principles of Artificial Intelligence
 
 Term Project for CIS 732: Machine Learning and Pattern Recognition
 
-* Trained and evaluated unconditional text generation language models with a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework
+* Trained unconditional text generation language models from a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework, and evaluated text output by utilizing a combination of human scoring and a computed bilingual evaluation understudy (BLEU) score
+
+* Developed and evaulated utilizing a free Google Colab instance with a GPU
+
+* Technologies used: PyTorch, Python, TextBox module (GAN algorithms)
 
 <a href="pdf/cis732_paper.pdf">Paper</a>
 
@@ -61,6 +73,8 @@ Term Project for STAT 705: Regression and Analysis of Variance
 
 * Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance
 
+* Technologies used: R Studio, ggplot2 (R module for data visualization), mgcv (R module for GAM)
+
 <a href="pdf/stat705_paper.pdf">Paper</a>
 
 <a href="pdf/stat705_presentation.pdf">Presentation</a>
@@ -78,7 +92,10 @@ Term Project for STAT 705: Regression and Analysis of Variance
 Term Project for GENBA 890: Business Capstone
 
 * As team coordinator, led student team in consulting with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain, utilizing both Python and PowerBI
+
 * I cannot share the deliverables due to confidential data used in this project; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the recommended visualization examples
+
+* Technologies used: Python, Plotly (Python module for visualization), PowerBI
 
 <a href="pdf/genba890_presentation.pdf">Presentation</a>
 
@@ -94,6 +111,8 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 
 * Description
 
+* Technologies used: Python
+
 <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a>
 
 <p align="center">
@@ -107,6 +126,8 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 Term Project for MANGT 830: Information Technology Strategy and Application
 
 * Description
+
+* Technologies used: Tableau
 
 <a href="pdf/mangt830_paper.pdf">Paper</a>
 
