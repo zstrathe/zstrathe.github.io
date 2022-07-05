@@ -51,7 +51,7 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
 
 * Trained unconditional text generation language models from a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework, and evaluated text output by utilizing a combination of human scoring and a computed bilingual evaluation understudy (BLEU) score
 
-* Developed and evaulated utilizing a free Google Colab instance with a GPU
+* Developed and evaluated utilizing a free Google Colab instance with a GPU
 
 * Technologies used: ```PyTorch, Python, TextBox module (GAN algorithms)```
 
