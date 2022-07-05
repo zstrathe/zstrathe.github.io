@@ -9,7 +9,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 
 * Deployed a Spark cluster on Amazon Web Services Elastic MapReduce to test functionality; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for develpoment and evaluation (to save on costs of running a real Spark cluster)
 
-* <u>Technologies used:</u> PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP
+* Technologies used:  ```PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP```
 
 <a href="pdf/cis731_paper.pdf">Paper</a>
 <br>
@@ -31,7 +31,7 @@ Term Project for CIS 730: Principles of Artificial Intelligence
 
 * Developed and trained utilizing a Google Cloud Platform virtual machine with a 8-core vCPU and a Tesla T4 GPU
 
-* Technologies used: ```Python, OpenAI Gym, OpenAI Baselines (PPO algorithm), TensorFlow, GCP```
+* Technologies used:  ```Python, OpenAI Gym, OpenAI Baselines (PPO algorithm), TensorFlow, GCP```
 
 <a href="pdf/cis730_paper.pdf">Paper</a>
 <br>
@@ -53,7 +53,7 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
 
 * Developed and evaulated utilizing a free Google Colab instance with a GPU
 
-* Technologies used: PyTorch, Python, TextBox module (GAN algorithms)
+* Technologies used: ```PyTorch, Python, TextBox module (GAN algorithms)```
 
 <a href="pdf/cis732_paper.pdf">Paper</a>
 <br>
@@ -95,7 +95,7 @@ Term Project for GENBA 890: Business Capstone
 
 * I can't share the deliverables due to confidential data used in this project; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the examples of recommended visualizations
 
-* ```Technologies used: Python, Plotly, PowerBI```
+* Technologies used:  ```Python, Plotly, PowerBI```
 
 <a href="pdf/genba890_presentation.pdf">Presentation</a>
 
@@ -111,7 +111,7 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 
 * Utilized web scraping with Python to collect news articles and historical price information about Bitcoin, and performed sentiment analysis on news articles to calculate the average aggregate sentiment per year to compare with annual Bitcoin price changes. Also utilized the Twitter API to collect and process tweets about Bitcoin to perform further sentiment analysis and network analytics
 
-* Technologies used: Python, Natural Language Toolkit (NLTK), Pandas, Matplotlib
+* Technologies used:  ```Python, Natural Language Toolkit (NLTK), Pandas, Matplotlib```
 
 <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a>
 
@@ -127,7 +127,7 @@ Term Project for MANGT 830: Information Technology Strategy and Application
 
 * Analyzed real estate, utilizing a data set of home prices and listing details, with a combination of visualizations developed in Tableau
 
-* Technologies used: Tableau
+* Technologies used:  ```Tableau```
 
 <a href="pdf/mangt830_paper.pdf">Paper</a>
 
