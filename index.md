@@ -125,7 +125,7 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 
 Term Project for MANGT 830: Information Technology Strategy and Application
 
-* Analyzed real estate, utilizing a data set of home prices and listing details, with a combination of visualizations developed in Tableau
+* Analyzed residential real estate in Seattle, WA with a combination of visualizations developed in Tableau, utilizing a data set containing property prices and additional feature details
 
 * Technologies used:  ```Tableau```
 
