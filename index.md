@@ -31,7 +31,7 @@ Term Project for CIS 730: Principles of Artificial Intelligence
 
 * Developed and trained utilizing a Google Cloud Platform virtual machine with a 8-core vCPU and a Tesla T4 GPU
 
-* Technologies used: Python, OpenAI Gym, OpenAI Baselines (PPO algorithm), TensorFlow, GCP
+* Technologies used: ```Python, OpenAI Gym, OpenAI Baselines (PPO algorithm), TensorFlow, GCP```
 
 <a href="pdf/cis730_paper.pdf">Paper</a>
 <br>
