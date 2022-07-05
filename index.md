@@ -12,9 +12,9 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 * Technologies used: PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP
 
 <a href="pdf/cis731_paper.pdf">Paper</a>
-
+<br>
 <a href="pdf/cis731_presentation.pdf">Presentation</a>
-
+<br>
 [Python Code](/code/cis731)
 
 <p align="center">
@@ -34,9 +34,9 @@ Term Project for CIS 730: Principles of Artificial Intelligence
 * Technologies used: Python, OpenAI Gym, OpenAI Baselines (PPO algorithm), TensorFlow, GCP
 
 <a href="pdf/cis730_paper.pdf">Paper</a>
-
+<br>
 <a href="pdf/cis730_presentation.pdf">Presentation</a>
-
+<br>
 [Python Code](/code/cis730)
 
 <p align="center">
@@ -56,9 +56,9 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
 * Technologies used: PyTorch, Python, TextBox module (GAN algorithms)
 
 <a href="pdf/cis732_paper.pdf">Paper</a>
-
+<br>
 <a href="pdf/cis732_presentation.pdf">Presentation</a>
-
+<br>
 [Python Code](/code/cis732)
 
 <p align="center">
@@ -76,9 +76,9 @@ Term Project for STAT 705: Regression and Analysis of Variance
 * Technologies used: R Studio, ggplot2 (R module for data visualization), mgcv (R module for GAM)
 
 <a href="pdf/stat705_paper.pdf">Paper</a>
-
+<br>
 <a href="pdf/stat705_presentation.pdf">Presentation</a>
-
+<br>
 [R Code](/code/stat705/stat705_code.html)
 
 <p align="center">
@@ -93,9 +93,9 @@ Term Project for GENBA 890: Business Capstone
 
 * As team coordinator, led student team in consulting with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain, utilizing both Python and PowerBI
 
-* I can't share the deliverables due to confidential data used in this project; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the recommended visualization examples
+* I can't share the deliverables due to confidential data used in this project; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the examples of recommended visualizations
 
-* Technologies used: Python, Plotly, PowerBI
+* ```Technologies used: Python, Plotly, PowerBI```
 
 <a href="pdf/genba890_presentation.pdf">Presentation</a>
 
