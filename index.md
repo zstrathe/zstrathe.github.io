@@ -7,7 +7,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 
 * Evaluated methods of feature selection and compared performance of classification algorithms with a data set of 500,000 labeled satellite images, entirely using the Apache PySpark distributed computing framework
 
-* Deployed a Spark cluster on Amazon Web Services Elastic MapReduce to test functionality; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for develpoment and evaluation (to save on costs of running a real Spark cluster)
+* Deployed a Spark cluster on Amazon Web Services Elastic MapReduce to test functionality; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for development and evaluation (to save on costs of running a real Spark cluster)
 
 * Technologies used:  ```PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP```
 
