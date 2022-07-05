@@ -9,7 +9,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 
 * Deployed a Spark cluster on Amazon Web Services Elastic MapReduce to test functionality; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for develpoment and evaluation (to save on costs of running a real Spark cluster)
 
-* Technologies used: PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP
+* <u>Technologies used:</u> PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP
 
 <a href="pdf/cis731_paper.pdf">Paper</a>
 <br>
