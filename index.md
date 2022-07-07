@@ -8,7 +8,7 @@
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
+  width: 65%;
   padding: 0px 15px 0px 0px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .column {
     width: 100%;
   }
