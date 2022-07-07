@@ -55,22 +55,6 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
   </div>
 </div>
 
-* Entirely using the Apache PySpark distributed computing framework in Python, evaluated methods of feature selection and compared performance of classification algorithms with a data set of 500,000 labeled satellite images, and implemented 10-fold cross validation with a paired t-test to validate evaluation results
-
-* Deployed a Spark cluster on Amazon Web Services Elastic MapReduce to test functionality; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for development and evaluation (to save on costs of running a real Spark cluster)
-
-* Technologies used:  ```PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP```
-
-<a href="pdf/cis731_paper.pdf">Paper</a>
-<br>
-<a href="pdf/cis731_presentation.pdf">Presentation</a>
-<br>
-[Python Code](/code/cis731)
-
-<p align="center">
-    <img src="images/3_pyspark_classification_project.png?raw=true" width="350"/>
-</p>
-
 ---
 
 <h2>Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros</h2>
@@ -79,7 +63,7 @@ Term Project for CIS 730: Principles of Artificial Intelligence
 
 <div class="row">
   <div class="column">
-    <ul style="list-style-position: outside; padding-left: 11px">
+    <ul style="list-style-position: outside; padding-left: 12px">
     <li>Trained a deep reinforcement learning model to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained Proximal Policy Optimization (PPO) model with modifications to the state-space, the action-space, and the reward function</li>
     <br>
     <li>Developed and trained utilizing a Google Cloud Platform virtual machine with a 8-core vCPU and a Tesla T4 GPU</li>
@@ -99,22 +83,6 @@ Term Project for CIS 730: Principles of Artificial Intelligence
   </div>
 </div>
 
-* Trained a deep reinforcement learning model to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained Proximal Policy Optimization (PPO) model with modifications to the state-space, the action-space, and the reward function
-
-* Developed and trained utilizing a Google Cloud Platform virtual machine with a 8-core vCPU and a Tesla T4 GPU
-
-* Technologies used:  ```Python, OpenAI Gym Retro, OpenAI Baselines, TensorFlow, GCP```
-
-<a href="pdf/cis730_paper.pdf">Paper</a>
-<br>
-<a href="pdf/cis730_presentation.pdf">Presentation</a>
-<br>
-[Python Code](/code/cis730)
-
-<p align="center">
-  <img src="images/4_reinforcement_learning_project.gif?raw=true" width="350"/>
-</p>
-
 ---
 
 <h2>Comparison of Deep Learning Text Generation Models Trained with Song Lyrics</h2>
@@ -123,7 +91,7 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
 
 <div class="row">
   <div class="column">
-    <ul style="list-style-position: outside; padding-left: 11px">
+    <ul style="list-style-position: outside; padding-left: 13px">
     <li>Trained unconditional text generation language models from a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework, and evaluated text output by utilizing a combination of human scoring and a computed bilingual evaluation understudy (BLEU) score</li>
     <br>
     <li>Developed and evaluated utilizing a free Google Colab instance with a GPU</li>
@@ -151,7 +119,7 @@ Term Project for STAT 705: Regression and Analysis of Variance
 
 <div class="row">
   <div class="column">
-    <ul style="list-style-position: outside; padding-left: 11px">
+    <ul style="list-style-position: outside; padding-left: 14px">
     <li>Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance</li>
     <br>
     <li>Technologies used:  <code>R, ggplot2</code></li>
@@ -177,7 +145,7 @@ Term Project for GENBA 890: Business Capstone
 
 <div class="row">
   <div class="column">
-    <ul style="list-style-position: outside; padding-left: 11px">
+    <ul style="list-style-position: outside; padding-left: 15px">
     <li>Coordinated student team in consulting with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain, utilizing both Python and PowerBI</li>
     <br>
     <li>I can't share the deliverables due to confidential data used in this project; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the examples of recommended visualizations</li>
