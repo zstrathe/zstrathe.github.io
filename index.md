@@ -118,21 +118,6 @@ Term Project for STAT 705: Regression and Analysis of Variance
   </div>
 </div>
 
-
-* Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance
-
-* Technologies used: ```R, ggplot2```
-
-<a href="pdf/stat705_paper.pdf">Paper</a>
-<br>
-<a href="pdf/stat705_presentation.pdf">Presentation</a>
-<br>
-[R Code](/code/stat705/stat705_code.html)
-
-<p align="center">
-  <img src="images/8_statistics_linear_model_project.png?raw=true" width="350"/>
-</p>
-
 ---
 
 <h2>Business Capstone Data Visualization Project</h2>
@@ -157,18 +142,6 @@ Term Project for GENBA 890: Business Capstone
     </p>
   </div>
 </div>
-
-* Coordinated student team in consulting with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain, utilizing both Python and PowerBI
-
-* I can't share the deliverables due to confidential data used in this project; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the examples of recommended visualizations
-
-* Technologies used:  ```Python, Plotly, PowerBI```
-
-<a href="pdf/genba890_presentation.pdf">Presentation</a>
-
-<p align="center">
-  <img src="images/7_capstone_visualization_project.png?raw=true" width="350"/>
-</p>
 
 ---
 
