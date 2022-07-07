@@ -203,17 +203,20 @@ Term Project for MANGT 830: Information Technology Strategy and Application
 }
 </style>
 
-<h2>Responsive Two Column Layout</h2>
-<p>Resize the browser window to see the responsive effect (the columns will stack on top of each other instead of floating next to each other, when the screen is less than 600px wide).</p>
-
 <div class="row">
-  <div class="column" style="background-color:#aaa;">
-    <h2>Column 1</h2>
-    <p>Some text..</p>
+  <div class="column">
+    <ul style="margin-left: -10px">
+    <li>Analyzed residential real estate in Seattle, WA with a combination of visualizations developed in Tableau, utilizing a data set containing property prices and additional feature details for 21,000 properties</li>
+    <br>
+    <li>Technologies used:  <code>Tableau</code></li>
+    <br>
+    <li><a href="pdf/mangt830_paper.pdf">Paper</a></li>
+    </ul>
   </div>
-  <div class="column" style="background-color:#bbb;">
-    <h2>Column 2</h2>
-    <p>Some text..</p>
+  <div class="column">
+    <p align="center">
+    <img src="images/5_data_visualiztion_project.png?raw=true" width="350"/>
+    </p>
   </div>
 </div>
 
