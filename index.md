@@ -202,8 +202,6 @@ Term Project for MANGT 830: Information Technology Strategy and Application
   }
 }
 </style>
-</head>
-<body>
 
 <h2>Responsive Two Column Layout</h2>
 <p>Resize the browser window to see the responsive effect (the columns will stack on top of each other instead of floating next to each other, when the screen is less than 600px wide).</p>
