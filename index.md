@@ -30,9 +30,7 @@
 ---
 
 <h2>Satellite Image Feature Selection & Classification Using PySpark</h2>
-
 Term Project for CIS 731: Programming Techniques for Data Science and Analytics
-
 <div class="row">
   <div class="column">
     <ul style="list-style-position: outside; padding-left: 15px">
