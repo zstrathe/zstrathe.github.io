@@ -124,17 +124,15 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 <h2>Real Estate Data Visualization with Tableau</h2>
 
 Term Project for MANGT 830: Information Technology Strategy and Application
-
 <div class="row">
-    <div class="column">
-        <p>test</p>
-    </div>
-    
-    <div class="column">
-        <p align="center">
-            <img src="images/5_data_visualiztion_project.png?raw=true" width="350"/>
-        </p>
-    </div>
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
 </div>
 
 * Analyzed residential real estate in Seattle, WA with a combination of visualizations developed in Tableau, utilizing a data set containing property prices and additional feature details
