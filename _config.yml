@@ -1,7 +1,15 @@
-title: Zack Strathe # your name (or website title) here
-self-title: ZS
+my-name: Zack Strathe
+title: Zack Strathe | Data Scientist | Portfolio # page title
+description: portfolio of student data science projects for Zack Strathe
+tagline: portfolio of student data science projects for Zack Strathe
+social:
+  name: Zack Strathe
+  links:
+    - https://www.linkedin.com/in/zack-strathe
+    - https://github.com/zstrathe
+
 #logo: "/images/profile.jpg?raw=true" your photo (or logo) here 
-description: > # your text below (remove <br> elements if you don't need line breaks)
+my-info:  # your text below (remove <br> elements if you don't need line breaks)
   <b>M.S. Data Analytics at Kansas State University
   <br>
   - Data Science Track
