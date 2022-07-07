@@ -19,7 +19,7 @@
   clear: both;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other, CHANGED FROM 600 px */
 @media screen and (max-width: 400px) {
   .column {
     width: 100%;
