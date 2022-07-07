@@ -1,3 +1,31 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
 # Project Portfolio
 ---
 
@@ -71,6 +99,28 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
 
 Term Project for STAT 705: Regression and Analysis of Variance
 
+<div class="row">
+  <div class="column">
+    <ul style="margin-left: -10px">
+    <li>Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance</li>
+    <br>
+    <li>Technologies used:  <code>R, ggplot2</code></li>
+    <br>
+    <li><a href="pdf/stat705_paper.pdf">Paper</a></li>
+    <br>
+    <li><a href="pdf/stat705_presentation.pdf">Presentation</a></li>
+    <br>
+    <li>[R Code](/code/stat705/stat705_code.html)</li>
+    </ul>
+  </div>
+  <div class="column">
+    <p align="center">
+    <img src="images/8_statistics_linear_model_project.png?raw=true" width="350"/>
+    </p>
+  </div>
+</div>
+
+
 * Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance
 
 * Technologies used: ```R, ggplot2```
@@ -91,6 +141,26 @@ Term Project for STAT 705: Regression and Analysis of Variance
 
 Term Project for GENBA 890: Business Capstone
 
+<div class="row">
+  <div class="column">
+    <ul style="margin-left: -10px">
+    <li>Coordinated student team in consulting with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain, utilizing both Python and PowerBI</li>
+    <br>
+    <li>I can't share the deliverables due to confidential data used in this project; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the examples of recommended visualizations</li>
+    <br>
+    <li>Technologies used:  <code>Python, Plotly, PowerBI</code></li>
+    <br>
+    <li><a href="pdf/genba890_presentation.pdf">Presentation</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <p align="center">
+    <img src="images/7_capstone_visualization_project.png?raw=true" width="350"/>
+    </p>
+  </div>
+</div>
+
+
 * Coordinated student team in consulting with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain, utilizing both Python and PowerBI
 
 * I can't share the deliverables due to confidential data used in this project; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the examples of recommended visualizations
@@ -108,34 +178,6 @@ Term Project for GENBA 890: Business Capstone
 <h2>Web Scraping News & Twitter Sentiment Analysis of Bitcoin</h2>
 
 Term Project for MIS 670: Social Media Analytics and Web Mining
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-</style>
 
 <div class="row">
   <div class="column">
