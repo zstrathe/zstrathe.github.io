@@ -107,9 +107,7 @@ Term Project for STAT 705: Regression and Analysis of Variance
     <li>Technologies used:  <code>R, ggplot2</code></li>
     <br>
     <li><a href="pdf/stat705_paper.pdf">Paper</a></li>
-    <br>
     <li><a href="pdf/stat705_presentation.pdf">Presentation</a></li>
-    <br>
     <li><a href="/code/stat705/stat705_code.html">R Code</a></li>
     </ul>
   </div>
