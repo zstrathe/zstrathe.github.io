@@ -35,7 +35,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 
 <div class="row">
   <div class="column">
-    <ul style="list-style-position: outside; padding-left: 11px">
+    <ul style="list-style-position: outside; padding-left: 15px">
     <li>Entirely using the Apache PySpark distributed computing framework in Python, evaluated methods of feature selection and compared performance of classification algorithms with a data set of 500,000 labeled satellite images, and implemented 10-fold cross validation with a paired t-test to validate evaluation results</li>
     <br>
     <li>Deployed a Spark cluster on Amazon Web Services Elastic MapReduce to test functionality; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for development and evaluation (to save on costs of running a real Spark cluster)</li>
@@ -63,7 +63,7 @@ Term Project for CIS 730: Principles of Artificial Intelligence
 
 <div class="row">
   <div class="column">
-    <ul style="list-style-position: outside; padding-left: 12px">
+    <ul style="list-style-position: outside; padding-left: 15px">
     <li>Trained a deep reinforcement learning model to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained Proximal Policy Optimization (PPO) model with modifications to the state-space, the action-space, and the reward function</li>
     <br>
     <li>Developed and trained utilizing a Google Cloud Platform virtual machine with a 8-core vCPU and a Tesla T4 GPU</li>
@@ -91,7 +91,7 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
 
 <div class="row">
   <div class="column">
-    <ul style="list-style-position: outside; padding-left: 13px">
+    <ul style="list-style-position: outside; padding-left: 15px">
     <li>Trained unconditional text generation language models from a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework, and evaluated text output by utilizing a combination of human scoring and a computed bilingual evaluation understudy (BLEU) score</li>
     <br>
     <li>Developed and evaluated utilizing a free Google Colab instance with a GPU</li>
@@ -119,7 +119,7 @@ Term Project for STAT 705: Regression and Analysis of Variance
 
 <div class="row">
   <div class="column">
-    <ul style="list-style-position: outside; padding-left: 14px">
+    <ul style="list-style-position: outside; padding-left: 15px">
     <li>Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance</li>
     <br>
     <li>Technologies used:  <code>R, ggplot2</code></li>
@@ -169,7 +169,7 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 
 <div class="row">
   <div class="column">
-    <ul style="list-style-position: outside; padding-left: 11px">
+    <ul style="list-style-position: outside; padding-left: 15px">
     <li>Utilized web scraping with Python to collect news articles and historical price information about Bitcoin, and performed sentiment analysis on news articles to calculate the average aggregate sentiment per year to compare with annual Bitcoin price changes. Also utilized the Twitter API to collect and process tweets about Bitcoin to perform further sentiment analysis and network analytics</li>
     <br>
     <li>Technologies used:  <code>Python, Natural Language Toolkit (NLTK), Pandas, Matplotlib</code></li>
@@ -191,7 +191,7 @@ Term Project for MANGT 830: Information Technology Strategy and Application
 
 <div class="row">
   <div class="column">
-    <ul style="margin-left: -10px">
+    <ul style="list-style-position: outside; padding-left: 15px">
     <li>Analyzed residential real estate in Seattle, WA with a combination of visualizations developed in Tableau, utilizing a data set containing property prices and additional feature details for 21,000 properties</li>
     <br>
     <li>Technologies used:  <code>Tableau</code></li>
