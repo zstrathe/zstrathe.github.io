@@ -8,7 +8,7 @@
 .column {
   float: left;
   width: 50%;
-  padding: 10px;
+  padding: 0px;
 }
 
 /* Clear floats after the columns */
