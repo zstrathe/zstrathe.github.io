@@ -8,7 +8,7 @@
 .column {
   float: left;
   width: 50%;
-  padding: 0px 10px 0px 0px;
+  padding: 0px 10px 10px 0px;
 }
 
 /* Clear floats after the columns */
@@ -47,7 +47,6 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
     <a href="pdf/cis731_presentation.pdf">Presentation</a>
     <br>
     <a href="/code/cis731">Python Code</a>
-    <br><br>
   </div>
   <div class="column">
     <p align="center">
@@ -76,7 +75,6 @@ Term Project for CIS 730: Principles of Artificial Intelligence
     <a href="pdf/cis730_presentation.pdf">Presentation</a>
     <br>
     <a href="/code/cis730">Python Code</a>
-    <br><br>
   </div>
   <div class="column">
     <p align="center">
@@ -131,7 +129,6 @@ Term Project for STAT 705: Regression and Analysis of Variance
     <a href="pdf/stat705_presentation.pdf">Presentation</a>
     <br>
     <a href="/code/stat705/stat705_code.html">R Code</a>
-    <br><br>
   </div>
   <div class="column">
     <p align="center">
@@ -156,7 +153,6 @@ Term Project for GENBA 890: Business Capstone
     <li>Technologies used:  <code>Python, Plotly, PowerBI</code></li>
     </ul>
     <a href="pdf/genba890_presentation.pdf">Presentation</a>
-    <br><br>
   </div>
   <div class="column">
     <p align="center">
@@ -179,7 +175,6 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
     <li>Technologies used:  <code>Python, Natural Language Toolkit (NLTK), Pandas, Matplotlib</code></li>
     </ul>
     <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a>
-    <br><br>
   </div>
   <div class="column">
     <p align="center">
@@ -202,7 +197,6 @@ Term Project for MANGT 830: Information Technology Strategy and Application
     <li>Technologies used:  <code>Tableau</code></li>
     </ul> 
     <a href="pdf/mangt830_paper.pdf">Paper</a>
-    <br><br>
   </div>
   <div class="column">
     <p align="center">
