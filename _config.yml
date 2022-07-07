@@ -9,7 +9,7 @@ social:
     - https://github.com/zstrathe
 
 #logo: "/images/profile.jpg?raw=true" your photo (or logo) here 
-my-info:>  # your text below (remove <br> elements if you don't need line breaks)
+my-info: >  # your text below (remove <br> elements if you don't need line breaks)
   <b>M.S. Data Analytics at Kansas State University
   <br>
   - Data Science Track
