@@ -109,6 +109,51 @@ Term Project for GENBA 890: Business Capstone
 
 Term Project for MIS 670: Social Media Analytics and Web Mining
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+<div class="row">
+  <div class="column">
+    <ul style="margin-left: -10px">
+    <li>Utilized web scraping with Python to collect news articles and historical price information about Bitcoin, and performed sentiment analysis on news articles to calculate the average aggregate sentiment per year to compare with annual Bitcoin price changes. Also utilized the Twitter API to collect and process tweets about Bitcoin to perform further sentiment analysis and network analytics</li>
+    <br>
+    <li>Technologies used:  <code>Python, Natural Language Toolkit (NLTK), Pandas, Matplotlib</code></li>
+    <br>
+    <li><a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <p align="center">
+    <img src="images/1_bitcoin_webscraping_sentiment_analysis_project.png?raw=true" width="350"/> 
+    </p>
+  </div>
+</div>
+
 <table style="width:100%">
 <tr>
 <td style="width:50%; vertical-align:top">
@@ -144,24 +189,50 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 
 Term Project for MANGT 830: Information Technology Strategy and Application
 
-<table style="width:100%">
-<tr>
-<td style="width:50%; vertical-align:top">
-<ul style="margin-left: -10px">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+<div class="row">
+  <div class="column">
+    <ul style="margin-left: -10px">
     <li>Analyzed residential real estate in Seattle, WA with a combination of visualizations developed in Tableau, utilizing a data set containing property prices and additional feature details for 21,000 properties</li>
     <br>
     <li>Technologies used:  <code>Tableau</code></li>
     <br>
     <li><a href="pdf/mangt830_paper.pdf">Paper</a></li>
-</ul>
-</td>
-<td>
-<p align="center">
-  <img src="images/5_data_visualiztion_project.png?raw=true" width="350"/>
-</p>
-</td>
-</tr>
-</table>
+    </ul>
+  </div>
+  <div class="column">
+    <p align="center">
+    <img src="images/5_data_visualiztion_project.png?raw=true" width="350"/>
+    </p>
+  </div>
+</div>
 
 
 * Analyzed residential real estate in Seattle, WA with a combination of visualizations developed in Tableau, utilizing a data set containing property prices and additional feature details
@@ -185,7 +256,6 @@ Term Project for MANGT 830: Information Technology Strategy and Application
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
