@@ -77,6 +77,28 @@ Term Project for CIS 730: Principles of Artificial Intelligence
 
 Term Project for CIS 732: Machine Learning and Pattern Recognition
 
+<div class="row">
+  <div class="column">
+    <ul style="list-style-position: outside; padding-left: 11px">
+    <li>Trained unconditional text generation language models from a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework, and evaluated text output by utilizing a combination of human scoring and a computed bilingual evaluation understudy (BLEU) score</li>
+    <br>
+    <li>Developed and evaluated utilizing a free Google Colab instance with a GPU</li>
+    <br>
+    <li>Technologies used:  <code>PyTorch, Python, TextBox module (GAN algorithms)</code></li>
+    </ul>
+    <a href="pdf/cis732_paper.pdf">Paper</a>
+    <br>
+    <a href="pdf/cis732_presentation.pdf">Presentation</a>
+    <br>
+    <a href="/code/cis732">Python Code</a>
+  </div>
+  <div class="column">
+    <p align="center">
+    <img src="images/6_deep_text_generation_project.png?raw=true" width="350"/>
+    </p>
+  </div>
+</div>
+
 * Trained unconditional text generation language models from a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework, and evaluated text output by utilizing a combination of human scoring and a computed bilingual evaluation understudy (BLEU) score
 
 * Developed and evaluated utilizing a free Google Colab instance with a GPU
@@ -127,15 +149,14 @@ Term Project for GENBA 890: Business Capstone
 
 <div class="row">
   <div class="column">
-    <ul style="margin-left: -10px">
+    <ul style="list-style-position: outside; padding-left: 11px">
     <li>Coordinated student team in consulting with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain, utilizing both Python and PowerBI</li>
     <br>
     <li>I can't share the deliverables due to confidential data used in this project; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the examples of recommended visualizations</li>
     <br>
     <li>Technologies used:  <code>Python, Plotly, PowerBI</code></li>
-    <br>
-    <li><a href="pdf/genba890_presentation.pdf">Presentation</a></li>
     </ul>
+    <a href="pdf/genba890_presentation.pdf">Presentation</a>
   </div>
   <div class="column">
     <p align="center">
@@ -152,13 +173,12 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 
 <div class="row">
   <div class="column">
-    <ul style="margin-left: -10px">
+    <ul style="list-style-position: outside; padding-left: 11px">
     <li>Utilized web scraping with Python to collect news articles and historical price information about Bitcoin, and performed sentiment analysis on news articles to calculate the average aggregate sentiment per year to compare with annual Bitcoin price changes. Also utilized the Twitter API to collect and process tweets about Bitcoin to perform further sentiment analysis and network analytics</li>
     <br>
     <li>Technologies used:  <code>Python, Natural Language Toolkit (NLTK), Pandas, Matplotlib</code></li>
-    <br>
-    <li><a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a></li>
     </ul>
+    <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a>
   </div>
   <div class="column">
     <p align="center">
