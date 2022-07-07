@@ -8,7 +8,7 @@
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
+  width: 65%;
   padding: 0px 15px 0px 0px;
 }
 
