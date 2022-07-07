@@ -117,7 +117,7 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
     <br>
     <li>Technologies used:  <code>Python, Natural Language Toolkit (NLTK), Pandas, Matplotlib</code></li>
     <br>
-    <li><a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a>
+    <li><a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a></li>
 </ul>
 </td>
 <td>
