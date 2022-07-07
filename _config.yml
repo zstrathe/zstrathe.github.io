@@ -1,7 +1,6 @@
-my-name: Zack Strathe
-title: Zack Strathe &#149; Data Scientist &#149; Portfolio # page title
+title: Zack Strathe # page title
+tagline: Data Scientist &#124; Portfolio
 description: A portfolio of data science projects for Zack Strathe
-tagline: "Data Scientist &#124; Portfolio"
 social:
   name: Zack Strathe
   links:
