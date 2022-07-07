@@ -33,6 +33,28 @@
 
 Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 
+<div class="row">
+  <div class="column">
+    <ul style="list-style-position: outside; padding-left: 11px">
+    <li>Entirely using the Apache PySpark distributed computing framework in Python, evaluated methods of feature selection and compared performance of classification algorithms with a data set of 500,000 labeled satellite images, and implemented 10-fold cross validation with a paired t-test to validate evaluation results</li>
+    <br>
+    <li>Deployed a Spark cluster on Amazon Web Services Elastic MapReduce to test functionality; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for development and evaluation (to save on costs of running a real Spark cluster)</li>
+    <br>
+    <li>Technologies used:  <code>PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP</code></li>
+    </ul>
+    <a href="pdf/cis731_paper.pdf">Paper</a>
+    <br>
+    <a href="pdf/cis731_presentation.pdf">Presentation</a>
+    <br>
+    <a href="/code/cis731">Python Code</a>
+  </div>
+  <div class="column">
+    <p align="center">
+    <img src="images/3_pyspark_classification_project.png?raw=true" width="350"/>
+    </p>
+  </div>
+</div>
+
 * Entirely using the Apache PySpark distributed computing framework in Python, evaluated methods of feature selection and compared performance of classification algorithms with a data set of 500,000 labeled satellite images, and implemented 10-fold cross validation with a paired t-test to validate evaluation results
 
 * Deployed a Spark cluster on Amazon Web Services Elastic MapReduce to test functionality; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for development and evaluation (to save on costs of running a real Spark cluster)
@@ -54,6 +76,28 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 <h2>Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros</h2>
 
 Term Project for CIS 730: Principles of Artificial Intelligence
+
+<div class="row">
+  <div class="column">
+    <ul style="list-style-position: outside; padding-left: 11px">
+    <li>Trained a deep reinforcement learning model to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained Proximal Policy Optimization (PPO) model with modifications to the state-space, the action-space, and the reward function</li>
+    <br>
+    <li>Developed and trained utilizing a Google Cloud Platform virtual machine with a 8-core vCPU and a Tesla T4 GPU</li>
+    <br>
+    <li>Technologies used:  <code>Python, OpenAI Gym Retro, OpenAI Baselines, TensorFlow, GCP</code></li>
+    </ul>
+    <a href="pdf/cis730_paper.pdf">Paper</a>
+    <br>
+    <a href="pdf/cis730_presentation.pdf">Presentation</a>
+    <br>
+    <a href="/code/cis730">Python Code</a>
+  </div>
+  <div class="column">
+    <p align="center">
+    <img src="images/4_reinforcement_learning_project.gif?raw=true" width="350"/>
+    </p>
+  </div>
+</div>
 
 * Trained a deep reinforcement learning model to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained Proximal Policy Optimization (PPO) model with modifications to the state-space, the action-space, and the reward function
 
@@ -98,23 +142,7 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
     </p>
   </div>
 </div>
-
-* Trained unconditional text generation language models from a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework, and evaluated text output by utilizing a combination of human scoring and a computed bilingual evaluation understudy (BLEU) score
-
-* Developed and evaluated utilizing a free Google Colab instance with a GPU
-
-* Technologies used: ```PyTorch, Python, TextBox module (GAN algorithms)```
-
-<a href="pdf/cis732_paper.pdf">Paper</a>
-<br>
-<a href="pdf/cis732_presentation.pdf">Presentation</a>
-<br>
-[Python Code](/code/cis732)
-
-<p align="center">
-  <img src="images/6_deep_text_generation_project.png?raw=true" width="350"/>
-</p>                                                                          
-
+                                                                      
 ---
 
 <h2>Statistical Analysis of Home Pricing with Linear Modeling in R</h2>
