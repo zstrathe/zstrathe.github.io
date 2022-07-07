@@ -90,7 +90,7 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
     <br>
     <a href="pdf/cis732_presentation.pdf">Presentation</a>
     <br>
-    <a href="/code/cis732">Python Code</a>
+    <a href="/code/cis732/index.md">Python Code</a>
   </div>
   <div class="column">
     <p align="center">
