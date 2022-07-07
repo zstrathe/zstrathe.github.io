@@ -101,15 +101,15 @@ Term Project for STAT 705: Regression and Analysis of Variance
 
 <div class="row">
   <div class="column">
-    <ul style="margin-left: -10px">
-    <li>Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance</li>
+    Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance
     <br>
-    <li>Technologies used:  <code>R, ggplot2</code></li>
+    Technologies used:  <code>R, ggplot2</code>
     <br>
-    <li><a href="pdf/stat705_paper.pdf">Paper</a></li>
-    <li><a href="pdf/stat705_presentation.pdf">Presentation</a></li>
-    <li><a href="/code/stat705/stat705_code.html">R Code</a></li>
-    </ul>
+    <a href="pdf/stat705_paper.pdf">Paper</a>
+    <br>
+    <a href="pdf/stat705_presentation.pdf">Presentation</a>
+    <br>
+    <a href="/code/stat705/stat705_code.html">R Code</a>
   </div>
   <div class="column">
     <p align="center">
