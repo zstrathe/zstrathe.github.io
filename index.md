@@ -110,7 +110,7 @@ Term Project for STAT 705: Regression and Analysis of Variance
     <br>
     <li><a href="pdf/stat705_presentation.pdf">Presentation</a></li>
     <br>
-    <li>[R Code](/code/stat705/stat705_code.html)</li>
+    <li><a href="/code/stat705/stat705_code.html">R Code</a></li>
     </ul>
   </div>
   <div class="column">
