@@ -50,7 +50,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
   </div>
   <div class="column">
     <p align="center">
-    <img src="images/3_pyspark_classification_project.png?raw=true" width="350"/>
+    <img src="images/3_pyspark_classification_project.png?raw=true"/>
     </p>
   </div>
 </div>
