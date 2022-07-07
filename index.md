@@ -127,18 +127,14 @@ Term Project for MANGT 830: Information Technology Strategy and Application
 
 <div class="row">
     <div class="column">
-    * Analyzed residential real estate in Seattle, WA with a combination of visualizations developed in Tableau, utilizing a data set containing property prices and additional feature details
-
-    * Technologies used:  ```Tableau```
-
-    <a href="pdf/mangt830_paper.pdf">Paper</a>
-  </div>
+        <p>test</p>
+    </div>
     
-  <div class="column">
-    <p align="center">
-      <img src="images/5_data_visualiztion_project.png?raw=true" width="350"/>
-    </p>
-  </div>
+    <div class="column">
+        <p align="center">
+            <img src="images/5_data_visualiztion_project.png?raw=true" width="350"/>
+        </p>
+    </div>
 </div>
 
 * Analyzed residential real estate in Seattle, WA with a combination of visualizations developed in Tableau, utilizing a data set containing property prices and additional feature details
