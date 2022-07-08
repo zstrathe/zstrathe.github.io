@@ -95,7 +95,7 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
     <br>
     <li>Technologies used:  <code>PyTorch, Python, TextBox module (GAN algorithms)</code></li>
     </ul>
-    <p align="center"
+    <p align="center">
     <a href="pdf/cis732_paper.pdf">Paper</a> | <a href="pdf/cis732_presentation.pdf">Presentation</a> | <a href="/code/cis732">Python Code</a>
     </p>
     <br><br>
