@@ -125,6 +125,11 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+divider {
+  border-left: 1px solid #000;
+  height: 100%;
+}
+
 ul.downloads {
   list-style:none;
   height:40px;
@@ -227,7 +232,12 @@ footer {
   header {
     padding-right:320px;
   }
-
+  
+  .divider {
+    border-left: 1px solid #000;
+    height: 100%;
+  }
+   
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
