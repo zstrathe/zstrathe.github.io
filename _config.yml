@@ -11,9 +11,9 @@ social:
 my-info: >  # your text below (remove <br> elements if you don't need line breaks)
   <b>M.S. Data Analytics at Kansas State University
   <br>
-  - Data Science Track
+  &bull; Data Science Track
   <br>
-  - Completion Date: August 2022
+  &bull; Completion Date: August 2022
   </b>
   <br><br>
   <a href="/pdf/ZackStratheResume.pdf"><b>Résumé</b></a>
