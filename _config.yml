@@ -21,7 +21,6 @@ my-info: >  # your text below (remove <br> elements if you don't need line break
   <p align="left">
      <a href="https://www.credly.com/badges/b5ea736f-bafb-4748-953c-604852744399"> <img src="/images/cert.png"></a>
   </p>
-  <br>
   <a href="https://www.linkedin.com/in/zack-strathe">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
