@@ -41,6 +41,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
     <br>
     <li>Technologies used:  <code>PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP</code></li>
     </ul>
+    <br>
     <p align="center">
     <a href="pdf/cis731_paper.pdf">Paper</a> | <a href="pdf/cis731_presentation.pdf">Presentation</a> | <a href="/code/cis731">Python Code</a>
     </p>
