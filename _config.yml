@@ -1,6 +1,6 @@
 title: Zack Strathe # page title
-tagline: Data Scientist &#124; Portfolio
-description: A portfolio of data science projects for Zack Strathe
+tagline: Portfolio &#124; Data Science
+description: A portfolio of data science, machine learning, and artificial intelligence projects by Zack Strathe, completed at Kansas State University toward earning a Master's of Science degree in Data Analytics in the Data Science program track.
 social:
   name: Zack Strathe
   links:
@@ -11,7 +11,7 @@ social:
 my-info: >  # your text below (remove <br> elements if you don't need line breaks)
   <b>M.S. Data Analytics at Kansas State University
   <br>
-  &bull; Data Science Track
+  &bull; Data Science Program Track
   <br>
   &bull; Completion Date: August 2022
   </b>
