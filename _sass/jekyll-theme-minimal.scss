@@ -122,7 +122,6 @@ header {
   width:325px;
   float:left;
   position:fixed;
-  border:1px solid #e0e0e0;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -190,6 +189,7 @@ section {
   width:880px;
   float:right;
   padding-bottom:50px;
+  border-left: 6px solid red;
 }
 
 small {
