@@ -43,7 +43,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
     </ul>
     <br>
     <p align="center">
-    <a href="pdf/cis731_paper.pdf">Paper</a> | <a href="pdf/cis731_presentation.pdf">Presentation</a> | <a href="/code/cis731">Python Code</a>
+    <a href="pdf/cis731_paper.pdf">Paper</a> | <a href="pdf/cis731_presentation.pdf">Presentation Slides</a> | <a href="/code/cis731">Python Code</a>
     </p>
     <br><br>
   </div>
@@ -71,7 +71,7 @@ Term Project for CIS 730: Principles of Artificial Intelligence
     </ul>
     <br>
     <p align="center">
-    <a href="pdf/cis730_paper.pdf">Paper</a> | <a href="pdf/cis730_presentation.pdf">Presentation</a> | <a href="/code/cis730">Python Code</a>
+    <a href="pdf/cis730_paper.pdf">Paper</a> | <a href="pdf/cis730_presentation.pdf">Presentation Slides</a> | <a href="/code/cis730">Python Code</a>
     </p>
     <br><br>
   </div>
@@ -99,7 +99,7 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
     </ul>
     <br>
     <p align="center">
-    <a href="pdf/cis732_paper.pdf">Paper</a> | <a href="pdf/cis732_presentation.pdf">Presentation</a> | <a href="/code/cis732">Python Code</a>
+    <a href="pdf/cis732_paper.pdf">Paper</a> | <a href="pdf/cis732_presentation.pdf">Presentation Slides</a> | <a href="/code/cis732">Python Code</a>
     </p>
     <br><br>
   </div>
@@ -125,7 +125,7 @@ Term Project for STAT 705: Regression and Analysis of Variance
     </ul>
     <br>
     <p align="center">
-    <a href="pdf/stat705_paper.pdf">Paper</a> | <a href="pdf/stat705_presentation.pdf">Presentation</a> | <a href="/code/stat705/stat705_code.html">R Code</a>
+    <a href="pdf/stat705_paper.pdf">Paper</a> | <a href="pdf/stat705_presentation.pdf">Presentation Slides</a> | <a href="/code/stat705/stat705_code.html">R Code</a>
     </p>
     <br><br>
   </div>
@@ -147,13 +147,13 @@ Term Project for GENBA 890: Business Capstone
     <ul style="list-style-position: outside; padding-left: 15px">
     <li>Coordinated student team in consulting with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain, utilizing both Python and PowerBI</li>
     <br>
-    <li>I can't share the deliverables due to confidential data used in this project; however, the presentation linked below is a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the examples of recommended visualizations</li>
+    <li>I can't share the deliverables due to confidential data used in this project; however, the presentation slides linked below are a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the examples of recommended visualizations</li>
     <br>
     <li>Technologies used:  <code>Python, Plotly, PowerBI</code></li>
     </ul>
     <br>
     <p align="center">
-    <a href="pdf/genba890_presentation.pdf">Presentation</a>
+    <a href="pdf/genba890_presentation.pdf">Presentation Slides</a>
     </p>
     <br><br>
   </div>
