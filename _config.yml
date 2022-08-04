@@ -20,8 +20,8 @@ my-info: >  # your text below (remove <br> elements if you don't need line break
   <p align="left">
      <a href="https://www.credly.com/badges/b5ea736f-bafb-4748-953c-604852744399"> <img src="/images/cert.png"></a>
   </p>
-  <a href="https://www.linkedin.com/in/zack-strathe">View My LinkedIn Profile</a><br>
-  <a href="https://github.com/zstrathe">View My Github Profile</a><br> 
+  <a href="https://www.linkedin.com/in/zack-strathe">View My LinkedIn Profile</a><br><br>
+  <a href="https://github.com/zstrathe">View My Github Profile</a><br><br>
   <a href="https://stackoverflow.com/users/13059824/zstr33">View My Stack Overflow Profile</a>
   
 theme: jekyll-theme-minimal
