@@ -41,7 +41,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
     <br>
     <li>Technologies used:  <code>PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP</code></li>
     </ul>
-    <br>
+    
     <p align="center">
     <a href="pdf/cis731_paper.pdf">Paper</a> | <a href="pdf/cis731_presentation.pdf">Presentation Slides</a> | <a href="/code/cis731">Python Code</a>
     </p>
@@ -69,7 +69,7 @@ Term Project for CIS 730: Principles of Artificial Intelligence
     <br>
     <li>Technologies used:  <code>Python, OpenAI Gym Retro, OpenAI Baselines, TensorFlow, GCP</code></li>
     </ul>
-    <br>
+    
     <p align="center">
     <a href="pdf/cis730_paper.pdf">Paper</a> | <a href="pdf/cis730_presentation.pdf">Presentation Slides</a> | <a href="/code/cis730">Python Code</a>
     </p>
@@ -97,7 +97,7 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
     <br>
     <li>Technologies used:  <code>PyTorch, Python, TextBox module (GAN algorithms)</code></li>
     </ul>
-    <br>
+    
     <p align="center">
     <a href="pdf/cis732_paper.pdf">Paper</a> | <a href="pdf/cis732_presentation.pdf">Presentation Slides</a> | <a href="/code/cis732">Python Code</a>
     </p>
@@ -123,7 +123,7 @@ Term Project for STAT 705: Regression and Analysis of Variance
     <br>
     <li>Technologies used:  <code>R, ggplot2</code></li>
     </ul>
-    <br>
+  
     <p align="center">
     <a href="pdf/stat705_paper.pdf">Paper</a> | <a href="pdf/stat705_presentation.pdf">Presentation Slides</a> | <a href="/code/stat705/stat705_code.html">R Code</a>
     </p>
@@ -151,7 +151,7 @@ Term Project for GENBA 890: Business Capstone
     <br>
     <li>Technologies used:  <code>Python, Plotly, PowerBI</code></li>
     </ul>
-    <br>
+   
     <p align="center">
     <a href="pdf/genba890_presentation.pdf">Presentation Slides</a>
     </p>
@@ -177,7 +177,7 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
     <br>
     <li>Technologies used:  <code>Python, Natural Language Toolkit (NLTK), Pandas, Matplotlib</code></li>
     </ul>
-    <br>
+   
     <p align="center">
     <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a>
     </p>
@@ -203,7 +203,7 @@ Term Project for MANGT 830: Information Technology Strategy and Application
     <br>
     <li>Technologies used:  <code>Tableau</code></li>
     </ul> 
-    <br>
+ 
     <p align="center">
     <a href="pdf/mangt830_paper.pdf">Paper</a>
     </p>
