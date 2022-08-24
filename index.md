@@ -29,7 +29,7 @@
 
 # Project Portfolio
 ---
-
+<div id="cis731project">
 <h2>Satellite Image Feature Selection & Classification Using PySpark</h2>
 Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 <div class="row">
@@ -53,7 +53,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
     </p>
   </div>
 </div>
-
+</div>
 ---
 
 <h2>Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros</h2>
@@ -191,7 +191,7 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 </div>
 
 ---
-
+<div id="mangt830 project">
 <h2>Real Estate Data Visualization with Tableau</h2>
 
 Term Project for MANGT 830: Information Technology Strategy and Application
@@ -215,7 +215,7 @@ Term Project for MANGT 830: Information Technology Strategy and Application
     </p>
   </div>
 </div>
-
+</div>
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
