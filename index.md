@@ -56,7 +56,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 </div>
 ---
 <div id="cis730project">
-<h2>Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros</h2>
+<h2>Training a Proximal Policy Optimization (PPO) Deep Reinforcement Learning Model to Play Mario Bros</h2>
 
 Term Project for CIS 730: Principles of Artificial Intelligence
 
