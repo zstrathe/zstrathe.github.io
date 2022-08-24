@@ -55,7 +55,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 </div>
 </div>
 ---
-
+<div id="cis730project">
 <h2>Training a Proximal Policy Optimization (PPO) Reinforcement Learning Model to Play Mario Bros</h2>
 
 Term Project for CIS 730: Principles of Artificial Intelligence
@@ -81,9 +81,9 @@ Term Project for CIS 730: Principles of Artificial Intelligence
     </p>
   </div>
 </div>
-
+</div>
 ---
-
+<div id="cis732project">
 <h2>Comparison of Deep Learning Text Generation Models Trained with Song Lyrics</h2>
 
 Term Project for CIS 732: Machine Learning and Pattern Recognition
@@ -109,9 +109,9 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
     </p>
   </div>
 </div>
-                                                                      
+</div>                                                                     
 ---
-
+<div id="stat705project">
 <h2>Statistical Analysis of Home Pricing with Linear Modeling in R</h2>
 
 Term Project for STAT 705: Regression and Analysis of Variance
@@ -135,9 +135,9 @@ Term Project for STAT 705: Regression and Analysis of Variance
     </p>
   </div>
 </div>
-
+</div>
 ---
-
+<div id="genba890project">
 <h2>Business Capstone Data Visualization Project</h2>
 
 Term Project for GENBA 890: Business Capstone
@@ -163,9 +163,9 @@ Term Project for GENBA 890: Business Capstone
     </p>
   </div>
 </div>
-
+</div>
 ---
-
+<div id="mis670project">
 <h2>Web Scraping News & Twitter Sentiment Analysis of Bitcoin</h2>
 
 Term Project for MIS 670: Social Media Analytics and Web Mining
@@ -189,9 +189,9 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
     </p>
   </div>
 </div>
-
+</div>
 ---
-<div id="mangt830 project">
+<div id="mangt830project">
 <h2>Real Estate Data Visualization with Tableau</h2>
 
 Term Project for MANGT 830: Information Technology Strategy and Application
