@@ -30,13 +30,13 @@
 # Project Portfolio
 ---
 <div id="cis731project">
-<h2>Satellite Image Feature Selection & Classification Using PySpark</h2>
+<h2>Satellite Image Feature Extraction & Classification Using PySpark</h2>
 Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 <br><br>
 <div class="row">
   <div class="column">
     <ul style="list-style-position: outside; padding-left: 15px">
-    <li>Entirely using the Apache PySpark distributed computing framework in Python, evaluated methods of feature selection and compared performance of classification algorithms with a data set of 500,000 labeled satellite images, and implemented 10-fold cross validation with a paired t-test to validate evaluation results</li>
+    <li>Entirely using the Apache PySpark distributed computing framework in Python, evaluated methods of feature extraction and compared performance of classification algorithms with a data set of 500,000 labeled satellite images, and implemented 10-fold cross validation with a paired t-test to validate evaluation results</li>
     <br>
     <li>Deployed a Spark cluster on Amazon Web Services Elastic MapReduce to test functionality; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for development and evaluation (to save on costs of running a real Spark cluster)</li>
     <br>
