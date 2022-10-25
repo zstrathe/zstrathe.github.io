@@ -33,7 +33,7 @@
 <h2>Satellite Image Feature Extraction & Classification Using PySpark</h2>
   
 Term Project for CIS 731: Programming Techniques for Data Science and Analytics
-<br>
+<br><br>
 <div class="row">
 <p align="center">
     <a href="pdf/cis731_paper.pdf">Paper</a> | <a href="pdf/cis731_presentation.pdf">Presentation Slides</a> | <a href="/code/cis731">Python Code</a>
@@ -69,7 +69,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 <h2>Training a Proximal Policy Optimization (PPO) Deep Reinforcement Learning Model to Play Mario Bros</h2>
 
 Term Project for CIS 730: Principles of Artificial Intelligence
-<br>
+<br><br>
 <div class="row">
 <p align="center">
     <a href="pdf/cis730_paper.pdf">Paper</a> | <a href="pdf/cis730_presentation.pdf">Presentation Slides</a> | <a href="/code/cis730">Python Code</a>
@@ -99,7 +99,7 @@ Term Project for CIS 730: Principles of Artificial Intelligence
 <h2>Comparison of Deep Learning Text Generation Models Trained with Song Lyrics</h2>
 
 Term Project for CIS 732: Machine Learning and Pattern Recognition
-<br>
+<br><br>
 <div class="row">
  <p align="center">
     <a href="pdf/cis732_paper.pdf">Paper</a> | <a href="pdf/cis732_presentation.pdf">Presentation Slides</a> | <a href="/code/cis732">Python Code</a>
@@ -129,8 +129,8 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
 <h2>Statistical Analysis of Home Pricing with Linear Modeling in R</h2>
 
 Term Project for STAT 705: Regression and Analysis of Variance
-<br>
-<div class="row")
+<br><br>
+<div class="row">
  <p align="center">
     <a href="pdf/stat705_paper.pdf">Paper</a> | <a href="pdf/stat705_presentation.pdf">Presentation Slides</a> | <a href="/code/stat705/stat705_code.html">R Code</a>
     </p>
@@ -157,7 +157,7 @@ Term Project for STAT 705: Regression and Analysis of Variance
 <h2>Business Capstone Data Visualization Project</h2>
 
 Term Project for GENBA 890: Business Capstone
-<br>
+<br><br>
 <div class="row">
  <p align="center">
     <a href="pdf/genba890_presentation.pdf">Presentation Slides</a>
@@ -185,7 +185,7 @@ Term Project for GENBA 890: Business Capstone
 <h2>Web Scraping News & Twitter Sentiment Analysis of Bitcoin</h2>
 
 Term Project for MIS 670: Social Media Analytics and Web Mining
-<br>
+<br><br>
 <div class="row">
 <p align="center">
     <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a>
@@ -213,7 +213,7 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 <h2>Real Estate Data Visualization with Tableau</h2>
 
 Term Project for MANGT 830: Information Technology Strategy and Application
-<br>
+<br><br>
 <div class="row">
 <p align="center">
     <a href="pdf/mangt830_paper.pdf">Paper</a>
