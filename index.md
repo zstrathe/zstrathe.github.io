@@ -34,6 +34,11 @@
 Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 <br><br>
 <div class="row">
+<p align="center">
+    <a href="pdf/cis731_paper.pdf">Paper</a> | <a href="pdf/cis731_presentation.pdf">Presentation Slides</a> | <a href="/code/cis731">Python Code</a>
+    </p>  
+  </div>   
+<div class="row">
   <div class="column">
     <ul style="list-style-position: outside; padding-left: 15px">
     <li>Entirely using the Apache Spark/PySpark distributed computing framework in Python, evaluated methods of feature extraction and compared performance of classification algorithms with a gigabyte-scale data set of 500,000 labeled satellite images, with the goal of developing a model to accurately predict land classes (forested, grassland, barren, other)</li>
@@ -57,11 +62,6 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
     </p>
   </div>
 </div>
-<div class="row">
-<p align="center">
-    <a href="pdf/cis731_paper.pdf">Paper</a> | <a href="pdf/cis731_presentation.pdf">Presentation Slides</a> | <a href="/code/cis731">Python Code</a>
-    </p>  
-  </div> 
 </div>
 ---
 <div id="cis730project">
