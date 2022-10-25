@@ -36,9 +36,17 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 <div class="row">
   <div class="column">
     <ul style="list-style-position: outside; padding-left: 15px">
-    <li>Entirely using the Apache PySpark distributed computing framework in Python, evaluated methods of feature extraction and compared performance of classification algorithms with a data set of 500,000 labeled satellite images, and implemented 10-fold cross validation with a paired t-test to validate evaluation results</li>
+    <li>Entirely using the Apache Spark/PySpark distributed computing framework in Python, evaluated methods of feature extraction and compared performance of classification algorithms with a gigabyte-scale data set of 500,000 labeled satellite images, with the goal of developing a model to accuratly predict land classes (forested, grassland, barren, other)</li>
+     <br>
+    <li>Utilized a weighted F1 score (the harmonic mean of precision and recall) for evaluation, which helped to account for class imbalance in the model training data</li>
     <br>
-    <li>Deployed a Spark cluster on Amazon Web Services Elastic MapReduce to test functionality; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for development and evaluation (to save on costs of running a real Spark cluster)</li>
+    <li>To validate evaluation results, created a custom implementation within PySpark of 10-fold cross validation with a paired t-test within </li>
+    <br>
+    <li>Joined original image data with transformed image data and classification results to export for visualization with Matplotlib in Python</li>
+    <br>
+    <li>Deployed a Spark cluster on Amazon Web Services EMR to test real-world functionality and evaluate the processing time reduction from applied distributed computing; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for development and evaluation (to save on costs of running a real Spark cluster)</li>
+    <br>
+    <li>Result: Improved weighted-F1 score from baseline of 81% to 93% by transforming images into a greyscale histogram and utilizing logistic regression classifier algorithm</li>
     <br>
     <li>Technologies used:  <code>PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP</code></li>
     </ul>
@@ -68,6 +76,8 @@ Term Project for CIS 730: Principles of Artificial Intelligence
     <br>
     <li>Developed and trained utilizing a Google Cloud Platform virtual machine with a 8-core vCPU and a Tesla T4 GPU</li>
     <br>
+    <li>Result: Developed a model that was able to efficiently complete the first level of Mario Bros after training to 20m timesteps</li>
+    <br>
     <li>Technologies used:  <code>Python, OpenAI Gym Retro, OpenAI Baselines, TensorFlow, GCP</code></li>
     </ul>
     
@@ -96,6 +106,8 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
     <br>
     <li>Developed and evaluated utilizing a free Google Colab instance with a GPU</li>
     <br>
+    <li>Result: the trained SeqGAN model was evaluated the highest; however, the overall text generation seemed to generally lack quality and coherence compared to genuine song lyrics, indicating that significant future work could be undertaken to improve model output</li>
+    <br>
     <li>Technologies used:  <code>PyTorch, Python, TextBox module (GAN algorithms)</code></li>
     </ul>
     
@@ -121,6 +133,8 @@ Term Project for STAT 705: Regression and Analysis of Variance
   <div class="column">
     <ul style="list-style-position: outside; padding-left: 15px">
     <li>Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance</li>
+    <br>
+    <li>Result: The simple linear model outperformed for short and medium-term price predictions (≤28 months), and the GAM performed better for longer-term price predictions (>28 months and <36 months)</li>
     <br>
     <li>Technologies used:  <code>R, ggplot2</code></li>
     </ul>
@@ -175,6 +189,8 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
   <div class="column">
     <ul style="list-style-position: outside; padding-left: 15px">
     <li>Utilized web scraping with Python to collect news articles and historical price information about Bitcoin, and performed sentiment analysis on news articles to calculate the average aggregate sentiment per year to compare with annual Bitcoin price changes. Also utilized the Twitter API to collect and process tweets about Bitcoin to perform further sentiment analysis and network analytics</li>
+    <br>
+    <li>Result: by comparing graphs of the annual Bitcoin price changes and the annual aggregate news sentiment about Bitcoin, there appeared to be some correlation between the two, though with sentiment lagging behind price changes by about a year</li>
     <br>
     <li>Technologies used:  <code>Python, Natural Language Toolkit (NLTK), Pandas, Matplotlib</code></li>
     </ul>
