@@ -36,13 +36,13 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 <div class="row">
   <div class="column">
     <ul style="list-style-position: outside; padding-left: 15px">
-    <li>Entirely using the Apache Spark/PySpark distributed computing framework in Python, evaluated methods of feature extraction and compared performance of classification algorithms with a gigabyte-scale data set of 500,000 labeled satellite images, with the goal of developing a model to accuratly predict land classes (forested, grassland, barren, other)</li>
+    <li>Entirely using the Apache Spark/PySpark distributed computing framework in Python, evaluated methods of feature extraction and compared performance of classification algorithms with a gigabyte-scale data set of 500,000 labeled satellite images, with the goal of developing a model to accurately predict land classes (forested, grassland, barren, other)</li>
      <br>
     <li>Utilized a weighted F1 score (the harmonic mean of precision and recall) for evaluation, which helped to account for class imbalance in the model training data</li>
     <br>
-    <li>To validate evaluation results, created a custom implementation within PySpark of 10-fold cross validation with a paired t-test within </li>
+    <li>To validate evaluation results, created a custom implementation within PySpark of 10-fold cross validation with a paired t-test</li>
     <br>
-    <li>Joined original image data with transformed image data and classification results to export for visualization with Matplotlib in Python</li>
+    <li>Joined original image data with the transformed image data and classification results to export for visualization with Matplotlib</li>
     <br>
     <li>Deployed a Spark cluster on Amazon Web Services EMR to test real-world functionality and evaluate the processing time reduction from applied distributed computing; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for development and evaluation (to save on costs of running a real Spark cluster)</li>
     <br>
