@@ -42,7 +42,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
     <br>
     <li>To validate evaluation results, created a custom implementation within PySpark of 10-fold cross validation with a paired t-test</li>
     <br>
-    <li>Joined original image data with the transformed image data and classification results and exported for visualization of results with Matplotlib</li>
+    <li>Joined original image data with the transformed image data and classification results and exported for visualization with Matplotlib</li>
     <br>
     <li>Deployed a Spark cluster on Amazon Web Services EMR to test real-world functionality and evaluate the processing time reduction from applied distributed computing; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for development and evaluation (to save on costs of running a real Spark cluster)</li>
     <br>
@@ -50,11 +50,6 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
     <br>
     <li>Technologies used:  <code>PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP</code></li>
     </ul>
-    
-    <p align="center">
-    <a href="pdf/cis731_paper.pdf">Paper</a> | <a href="pdf/cis731_presentation.pdf">Presentation Slides</a> | <a href="/code/cis731">Python Code</a>
-    </p>
-    <br><br>
   </div>
   <div class="column">
     <p align="center">
@@ -62,6 +57,11 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
     </p>
   </div>
 </div>
+<div class="row">
+<p align="center">
+    <a href="pdf/cis731_paper.pdf">Paper</a> | <a href="pdf/cis731_presentation.pdf">Presentation Slides</a> | <a href="/code/cis731">Python Code</a>
+    </p>  
+  </div> 
 </div>
 ---
 <div id="cis730project">
