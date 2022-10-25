@@ -70,6 +70,11 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 Term Project for CIS 730: Principles of Artificial Intelligence
 <br><br>
 <div class="row">
+<p align="center">
+    <a href="pdf/cis730_paper.pdf">Paper</a> | <a href="pdf/cis730_presentation.pdf">Presentation Slides</a> | <a href="/code/cis730">Python Code</a>
+    </p>
+  </div>
+<div class="row">
   <div class="column">
     <ul style="list-style-position: outside; padding-left: 15px">
     <li>Trained a deep reinforcement learning model to play the game Mario Bros, using OpenAI's Gym framework in Python, and evaluated methods of improving the trained Proximal Policy Optimization (PPO) model with modifications to the state-space, the action-space, and the reward function</li>
@@ -80,11 +85,6 @@ Term Project for CIS 730: Principles of Artificial Intelligence
     <br>
     <li>Technologies used:  <code>Python, OpenAI Gym Retro, OpenAI Baselines, TensorFlow, GCP</code></li>
     </ul>
-    
-    <p align="center">
-    <a href="pdf/cis730_paper.pdf">Paper</a> | <a href="pdf/cis730_presentation.pdf">Presentation Slides</a> | <a href="/code/cis730">Python Code</a>
-    </p>
-    <br><br>
   </div>
   <div class="column">
     <p align="center">
@@ -100,6 +100,11 @@ Term Project for CIS 730: Principles of Artificial Intelligence
 Term Project for CIS 732: Machine Learning and Pattern Recognition
 <br><br>
 <div class="row">
+ <p align="center">
+    <a href="pdf/cis732_paper.pdf">Paper</a> | <a href="pdf/cis732_presentation.pdf">Presentation Slides</a> | <a href="/code/cis732">Python Code</a>
+    </p>
+  </div>
+<div class="row">
   <div class="column">
     <ul style="list-style-position: outside; padding-left: 15px">
     <li>Trained unconditional text generation language models from a text corpus of song lyrics, utilizing recurrent neural networks (RNNs) and generative adversarial networks (GANs) in Python with the PyTorch deep learning framework, and evaluated text output by utilizing a combination of human scoring and a computed bilingual evaluation understudy (BLEU) score</li>
@@ -110,11 +115,6 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
     <br>
     <li>Technologies used:  <code>PyTorch, Python, TextBox module (GAN algorithms)</code></li>
     </ul>
-    
-    <p align="center">
-    <a href="pdf/cis732_paper.pdf">Paper</a> | <a href="pdf/cis732_presentation.pdf">Presentation Slides</a> | <a href="/code/cis732">Python Code</a>
-    </p>
-    <br><br>
   </div>
   <div class="column">
     <p align="center">
@@ -129,6 +129,11 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
 
 Term Project for STAT 705: Regression and Analysis of Variance
 <br><br>
+<div class="row")
+ <p align="center">
+    <a href="pdf/stat705_paper.pdf">Paper</a> | <a href="pdf/stat705_presentation.pdf">Presentation Slides</a> | <a href="/code/stat705/stat705_code.html">R Code</a>
+    </p>
+</div>  
 <div class="row">
   <div class="column">
     <ul style="list-style-position: outside; padding-left: 15px">
@@ -138,11 +143,6 @@ Term Project for STAT 705: Regression and Analysis of Variance
     <br>
     <li>Technologies used:  <code>R, ggplot2</code></li>
     </ul>
-  
-    <p align="center">
-    <a href="pdf/stat705_paper.pdf">Paper</a> | <a href="pdf/stat705_presentation.pdf">Presentation Slides</a> | <a href="/code/stat705/stat705_code.html">R Code</a>
-    </p>
-    <br><br>
   </div>
   <div class="column">
     <p align="center">
@@ -158,6 +158,11 @@ Term Project for STAT 705: Regression and Analysis of Variance
 Term Project for GENBA 890: Business Capstone
 <br><br>
 <div class="row">
+ <p align="center">
+    <a href="pdf/genba890_presentation.pdf">Presentation Slides</a>
+    </p>
+  </div> 
+<div class="row">
   <div class="column">
     <ul style="list-style-position: outside; padding-left: 15px">
     <li>Coordinated student team in consulting with a client company to provide research findings into data visualization methods, and developed visualization dashboard implementations that provide greater insight into the status of their nationwide supply chain, utilizing both Python and PowerBI</li>
@@ -166,11 +171,6 @@ Term Project for GENBA 890: Business Capstone
     <br>
     <li>Technologies used:  <code>Python, Plotly, PowerBI</code></li>
     </ul>
-   
-    <p align="center">
-    <a href="pdf/genba890_presentation.pdf">Presentation Slides</a>
-    </p>
-    <br><br>
   </div>
   <div class="column">
     <p align="center">
@@ -186,6 +186,12 @@ Term Project for GENBA 890: Business Capstone
 Term Project for MIS 670: Social Media Analytics and Web Mining
 <br><br>
 <div class="row">
+<p align="center">
+    <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a>
+    </p>
+    <br><br>
+  </div>
+<div class="row">
   <div class="column">
     <ul style="list-style-position: outside; padding-left: 15px">
     <li>Utilized web scraping with Python to collect news articles and historical price information about Bitcoin, and performed sentiment analysis on news articles to calculate the average aggregate sentiment per year to compare with annual Bitcoin price changes. Also utilized the Twitter API to collect and process tweets about Bitcoin to perform further sentiment analysis and network analytics</li>
@@ -194,11 +200,6 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
     <br>
     <li>Technologies used:  <code>Python, Natural Language Toolkit (NLTK), Pandas, Matplotlib</code></li>
     </ul>
-   
-    <p align="center">
-    <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a>
-    </p>
-    <br><br>
   </div>
   <div class="column">
     <p align="center">
@@ -214,17 +215,17 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 Term Project for MANGT 830: Information Technology Strategy and Application
 <br><br>
 <div class="row">
+<p align="center">
+    <a href="pdf/mangt830_paper.pdf">Paper</a>
+    </p>
+  </div> 
+<div class="row">
   <div class="column">
     <ul style="list-style-position: outside; padding-left: 15px">
     <li>Analyzed residential real estate in Seattle, WA with a combination of visualizations developed in Tableau, utilizing a data set containing property prices and additional feature details for 21,000 properties</li>
     <br>
     <li>Technologies used:  <code>Tableau</code></li>
     </ul> 
- 
-    <p align="center">
-    <a href="pdf/mangt830_paper.pdf">Paper</a>
-    </p>
-    <br><br>
   </div>
   <div class="column">
     <p align="center">
