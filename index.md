@@ -46,7 +46,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
     <br>
     <li>Deployed a Spark cluster on Amazon Web Services EMR to test real-world functionality and evaluate the processing time reduction from applied distributed computing; utilized a Google Cloud Platform virtual machine with a 16-core vCPU and 64 GB RAM for development and evaluation (to save on costs of running a real Spark cluster)</li>
     <br>
-      <li><b>Result</b>: Improved weighted-F1 score from baseline of 81% to 93% by transforming images into a greyscale histogram and utilizing logistic regression classifier algorithm</li>
+      <li><b>Result</b>: Improved weighted-F1 score from baseline of 81% to 93% by transforming images into a greyscale histogram and utilizing the logistic regression classifier algorithm</li>
     <br>
     <li>Technologies used:  <code>PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP</code></li>
     </ul>
