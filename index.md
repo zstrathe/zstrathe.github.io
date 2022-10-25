@@ -68,7 +68,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
 <h2>Training a Proximal Policy Optimization (PPO) Deep Reinforcement Learning Model to Play Mario Bros</h2>
 
 Term Project for CIS 730: Principles of Artificial Intelligence
-<br><br>
+<br>
 <div class="row">
 <p align="center">
     <a href="pdf/cis730_paper.pdf">Paper</a> | <a href="pdf/cis730_presentation.pdf">Presentation Slides</a> | <a href="/code/cis730">Python Code</a>
@@ -189,7 +189,6 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
 <p align="center">
     <a href="https://github.com/zstrathe/zstrathe.github.io/blob/master/code/mis670/mis670_notebook.ipynb">Python Notebook</a>
     </p>
-    <br><br>
   </div>
 <div class="row">
   <div class="column">
