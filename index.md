@@ -134,7 +134,7 @@ Term Project for STAT 705: Regression and Analysis of Variance
     <ul style="list-style-position: outside; padding-left: 15px">
     <li>Created a linear model in R to conduct statistical analysis of home pricing in Kansas City, MO, and evaluated the linear model compared to a more-complex generalized additive model (GAM) for predictive performance</li>
     <br>
-    <li><b>Result</b>: The simple linear model outperformed for short and medium-term price predictions (≤28 months), and the GAM performed better for longer-term price predictions (>28 months and <36 months)</li>
+    <li><b>Result</b>: the simple linear model outperformed for short and medium-term price predictions (≤28 months), and the GAM performed better for longer-term price predictions (>28 months and <36 months)</li>
     <br>
     <li>Technologies used:  <code>R, ggplot2</code></li>
     </ul>
