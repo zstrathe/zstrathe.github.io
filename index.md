@@ -254,7 +254,7 @@ Term Project for MKTG 880: Applied Marketing Analytics
     <br>
     <li>Utilized conjoint analysis with survey data to determine ideal hotel room features for each attribute</li>
     <br>
-    <li>Utilized segmentation with k-means clustering to identify different segments from customer data, and used a scree plot to determine the ideal number of segments</li>
+    <li>Utilized segmentation with k-means clustering to identify different segments from customer data, and used a scree plot to determine the ideal number of segments based on differences in the within group sum of squares totals</li>
     <br>
     <li>Using segmentation and conjoint analysis data, conducted market analysis versus competing brands to identify strongest competitor and identified ideal hotel features for each customer segment, in order to recommend attributes for a new hotel with the highest likelihood of success </li>    
     <br>
@@ -263,7 +263,7 @@ Term Project for MKTG 880: Applied Marketing Analytics
   </div>
   <div class="column">
     <p align="center">
-    <img src="images/9_r_market_analysis.png?raw=true" width="350"/>
+    <img src="images/9_r_market_analysis.PNG?raw=true" width="350"/>
     </p>
   </div>
 </div>
