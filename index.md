@@ -54,7 +54,7 @@ Term Project for CIS 731: Programming Techniques for Data Science and Analytics
     <br>
       <li><b>Result</b>: Improved weighted-F1 score from baseline of 81% to 93% by transforming images into a greyscale histogram and utilizing the logistic regression classifier algorithm</li>
     <br>
-    <li>Technologies used:  <code>PySpark, Python, MLlib, OpenCV, Numpy, AWS EMR, GCP</code></li>
+    <li>Technologies used:  <code>PySpark, Python, MLlib, OpenCV, NumPy, SciPy, Matplotlib, AWS EMR, GCP</code></li>
     </ul>
   </div>
   <div class="column">
@@ -114,7 +114,7 @@ Term Project for CIS 732: Machine Learning and Pattern Recognition
     <br>
     <li><b>Result</b>: the trained SeqGAN model was evaluated the highest; however, the overall text generation seemed to generally lack quality and coherence compared to genuine song lyrics, indicating that significant future work could be undertaken to improve model output</li>
     <br>
-    <li>Technologies used:  <code>PyTorch, Python, TextBox module (GAN algorithms)</code></li>
+    <li>Technologies used:  <code>Python, PyTorch</code></li>
     </ul>
   </div>
   <div class="column">
@@ -170,7 +170,7 @@ Term Project for GENBA 890: Business Capstone
     <br>
     <li>I can't share the deliverables due to confidential data used in this project; however, the presentation slides linked below are a summary that was presented at the K-State College of Business Graduate School Advisory Council Meeting on May 4th, 2022, which includes randomized data used in the examples of recommended visualizations</li>
     <br>
-    <li>Technologies used:  <code>Python, Plotly, PowerBI</code></li>
+    <li>Technologies used:  <code>Python, Plotly/Dash</code></li>
     </ul>
   </div>
   <div class="column">
@@ -198,7 +198,7 @@ Term Project for MIS 670: Social Media Analytics and Web Mining
     <br>
     <li><b>Result</b>: by comparing graphs of the annual Bitcoin price changes and the annual aggregate news sentiment about Bitcoin, there appeared to be some correlation between the two, though with sentiment lagging behind price changes by about a year</li>
     <br>
-    <li>Technologies used:  <code>Python, Natural Language Toolkit (NLTK), Pandas, Matplotlib</code></li>
+    <li>Technologies used:  <code>Python, Pandas, Natural Language Toolkit (NLTK), NumPy, Matplotlib</code></li>
     </ul>
   </div>
   <div class="column">
