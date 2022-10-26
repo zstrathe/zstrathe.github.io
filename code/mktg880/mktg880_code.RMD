@@ -1,0 +1,448 @@
+---
+title: 'Project: Forte Hotel Analysis'
+author: "Zack Strathe"
+date: '2022-07-22'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE)
+```
+
+### Student Verification
+```{r StudentVerification}
+# The scripts you need to include in each of R script 
+#
+# (1) Type your own name 
+# (2) Date function
+# (3) Get and print your computer's IP address
+#     so that I can verify you are the one who run the scripts
+#     in your computer.
+#
+# -------------------------------------------
+# COPY and PASTE the below into your R script
+# -------------------------------------------
+
+# (1) Type Your Name 
+#   (a) Run the line 20 below
+#       You get "What is your name?" prompt in Console pane.  
+#   (b) Go to Console pane (click on the Console pane)
+#   (c) Type your name AND hit Enter Key
+#   (d) Go back to Source pane and Run line 23 to print name 
+
+your_name <- readline(prompt = "What is your name?      ")
+your_name <- "Zack Strathe" # hardcoding for knitting RMarkdown to HTML
+# Go to the Console pane and type your name AND hit Enter Key
+
+print(your_name)
+
+# (2) Date Function
+date()
+
+# (3) IP Address for Window (may not work for Mac)
+#     Getting and Printing IP address of your computer
+#     This IP address will be unique.
+#     If there are errors realted to the below commands, 
+#     just include all the error messages in the output.
+
+x <- system("ipconfig", intern=TRUE)
+x[grep("IPv4", x)]
+z <- x[grep("IPv4", x)]
+gsub(".*? ([[:digit:]])", "\\1", z)
+
+# End of Verification and Checking --------------
+# The output of the above commands should be included.
+```
+
+```{r AttributeOptions}
+# Setting up attribute descriptions for easier reference in report
+library(Dict)
+room_types <- c("small suite" = "a small suite which contains a bedroom and separate sitting area with a couch, tv, and coffee table",
+                "large room" = "a large standard room containing two queen-sized beds", 
+                "room office" = "a room that contains a full-sized desk with swivel chair, and single queen-size bed")
+business_amenities <- c("internet" = "an in-room computer with access to the internet at a low hourly rate", 
+                        "speaker phone" = "an in-room speaker phone for conference calls", 
+                        "fax machine" = "an in-room fax machine with a private temporary number")
+leisure_amenities <- c("exercise" = "access to a large exercise room, equipped with a variety of cardio machines, free weights and a sauna", 
+                       "pool" = "access to a standard indoor lap pool",
+                       "exercise+pool" = "access to both a small exercise room and a small pool")
+extras <- c("shoe shine" = "a complimentary shoe shine every night",
+            "tape library" = "complimentary access to a large collection of videotapes",
+            "fruit cheese bowl" = "a complimentary fruit and gourmet cheese bowl",
+            "newspaper" = "a complimentary newspaper delivered every morning")
+rest_delivery <- c("yes" = "complimentary delivery service for nearby restaurants", 
+                   "no" = "no restaurant delivery service")
+```    
+
+# Forte Hotel Analysis
+I have been hired by Forte Hotels to provide analysis for their entry into the United States market with a new hotel chain, Forte Executive Innes, that will appeal to business travelers.
+
+Forte Hotels wishes to target both European business travelers in the US, who will already be familiar with their brand, as well as to target US business travelers, who might be won over with amenities not typically found among other popular US hotels, but will still expect American functionality and convenience.
+
+To help position themselves within this market, Forte Hotels seeks to know which combination of hotel amenities are the most desired by business travelers.
+
+And to provide this analysis, I will utilize a questionnaire of consumer responses to develop a conjoint analysis that will provide insight into traveler preferences, based on five attribute categories and varying levels of options within each attribute.
+
+The categories & levels are:
+
+- **Room Type**
+  - Small Suite: `r room_types["small suite"]`
+  - Large Room: `r room_types["large room"]`
+  - Room-Office: `r room_types["room office"]`
+- **Business Amenities**
+  - Internet: `r business_amenities["internet"]`
+  - Speaker Phone: `r business_amenities["speaker phone"]`
+  - Fax Machine: `r business_amenities["fax machine"]`
+- **Leisure Amenities**
+  - Exercise Room: `r leisure_amenities["exercise"]`
+  - Pool: `r leisure_amenities["pool"]`
+  - Exercise Room and Pool: `r leisure_amenities["exercise+pool"]`
+- **Extras**
+  - Shoe Shine: `r extras["shoe shine"]`
+  - Tape Library: `r extras["tape library"]`
+  - Fruit and Cheese Bowl: `r extras["fruit cheese bowl"]`
+  - Newspaper: `r extras["newspaper"]`
+- **Restaurant Delivery**
+  - Yes: `r rest_delivery["yes"]`
+  - No: `r rest_delivery["no"]`
+
+# Survey Questionnaire
+To significantly improve the ease and efficiency of data collection, the design of this study uses 16 bundles (pre-selected with fractional factorial design) in order to estimate the preferences of business travelers for all 216 possible combinations of hotel rooms and amenities.
+
+The following questionnaire was distributed to a group of 40 respondents who rated their estimated satisfaction with each bundle option (on a 0-100 scale):
+
+```{r PlotQuestionnaire, fig.cap="**Table 1: Business Traveler Questionnaire**"}
+library(plotly)
+survey_data <- read.csv("forte_questionnaire.csv", header=TRUE) 
+survey_data[,3] <- ""
+
+fig <- plot_ly(
+  type = 'table',
+  columnwidth = c(280, 45),
+  columnorder = c(0, 1),
+  height = 500,
+  header = list(
+    values = c("<b>Please rate how satisfied you would be with each of the following hotel amenity bundles when you are travelling for business:</b>","<b> Rating<br>(0 - 100)</b>"),
+    align = c("Left", "center"),
+    line = list(width = 1, color = 'black'),
+    fill = list(color = c("grey", "grey")),
+    font = list(family = "Arial", size = 14, color = "white")
+  ),
+  cells = list(
+    values = rbind(paste(survey_data[,1], "\n", survey_data[,2], sep=""), survey_data[,3]),
+    align = c("left", "center"),
+    line = list(color = "black", width = 1),
+    font = list(family = "Arial", size = 12, color = c("black"))
+  ))
+
+fig
+```
+
+# Data Preparation
+To complete the conjoint analysis, first the attribute profiles for each of the 16 bundles were encoded to integer values, to represent each separate level within each attribute.
+
+The data is then loaded into R from .csv files.
+
+```{r LoadData}
+library(conjoint)
+
+# Declare research variables
+# Include levels of attributes
+hotel<-expand.grid(room=c("Small Suite","Large Room","Room Office"),
+                   bus_amenities=c("Internet access","Speaker phone", "Room fax"),
+                   leisure=c("Exercise room", "Pool", "Exercise Room + Pool"),
+                   extras= c("Shoe shine", "Tape library", "Fruit and cheese", "Newspaper"),
+                   rest_delivery = c("Yes", "No"))
+            
+###########################
+
+# data loading
+# comma separated data: using read.csv
+# using parameter: fileEncoding="UTF-8-BOM", because otherwise it appends "ï.." to the beginning of the first column name
+preferences=read.csv("forte_preferences.csv", header=TRUE, fileEncoding="UTF-8-BOM") 
+profiles=read.csv("forte_profiles.csv", header=TRUE, fileEncoding="UTF-8-BOM") 
+levelnames=read.csv("forte_levels.csv", header=TRUE, fileEncoding="UTF-8-BOM") 
+simulations1=read.csv("forte_simulation1.csv", header=TRUE, fileEncoding="UTF-8-BOM") 
+simulations2=read.csv("forte_simulation2.csv", header=TRUE, fileEncoding="UTF-8-BOM") 
+```
+
+- Preferences data dimension: `r paste(dim(preferences)[1], "rows x ", dim(preferences)[2], " columns")`
+
+- Profiles data dimension: `r paste(dim(profiles)[1], "rows x ", dim(profiles)[2], " columns")`
+
+- Levels data dimension: `r paste(dim(levelnames)[1], "rows x ", dim(levelnames)[2], " column")`
+
+- Simulations 1 data dimension: `r paste(dim(simulations1)[1], "rows x ", dim(simulations1)[2], " columns")`
+
+- Simulations 2 data dimension: `r paste(dim(simulations2)[1], "rows x ", dim(simulations2)[2], " columns")`
+
+# Part Worth Utility Analysis
+Calculating the part worth of each level for each attribute allows for estimating the values that a customer places on each attribute when making choices. The part worth is calculated by encoding each attribute as an explanatory variable into a linear model, with the preference rating as the response variable. Doing this also allows for measuring the relative importance of each category of attributes.
+
+As an example, here are the part worth utilities for respondent 10, as well as the ideal hotel profile that can be determined from the part worth utilities:
+
+**Part worth utilities for respondent 10:**
+```{r PartWorthAnalysis1}
+# Measurement of part-worths utilities (all respondents): 
+partutilities=caPartUtilities(y=preferences,x=profiles,z=levelnames) 
+print(partutilities[10,]) # print part-worth utility for respondent 10
+```
+
+**Importance of attributes for respondent 10:**
+```{r PartWorthAnalysis2}
+# Determining the relative importance of features (for the respondent No.10):
+importance=caImportance(y=preferences[10,],x=profiles) 
+print(importance)
+```
+
+Based on the part-worth utility for respondent 10, their ideal hotel would be:
+
+- Room Type: `r room_types["large room"]`
+- Business Amenities: `r business_amenities["fax machine"]`
+- Leisure Amenities: `r leisure_amenities["exercise+pool"]` 
+- Extras: `r extras["fruit cheese bowl"]` 
+- Restaurant Delivery: `r rest_delivery["yes"]`
+  
+For this respondent, the Leisure Amenities attribute is the most important, therefore they would likely first narrow their selection of potential hotels based on the availability of both an exercise room and a pool. Next in importance for this respondent are Room Type, followed closely by Business Amenities and Extras. So this person's selection of a hotel to stay in would most likely be determined in order by those attributes. 
+
+
+**Total utilities for all respondents (first six respondents):**
+```{r PartworthAnalysis3}
+# Measurement of total utilities (all respondents):
+totalutilities=caTotalUtilities(y=preferences,x=profiles) 
+print(head(totalutilities))
+```
+Calculating the total utilities for each respondent and questionnaire profile yields roughly the same values as the preference data from respondents.
+
+
+# Conjoint Analysis: All
+```{r ConjointAnalysisAll}
+# Using the Conjoint function for all respondents
+Conjoint(y=preferences,x=profiles,z=levelnames)
+```
+For all respondents, the conjoint analysis indicates that the preferred hotel room profile is:
+
+- Room Type: `r room_types["small suite"]`
+- Business Amenities: `r business_amenities["speaker phone"]` 
+- Leisure Amenities: `r leisure_amenities["exercise+pool"]` 
+- Extras: `r extras["fruit cheese bowl"]` 
+- Restaurant Delivery: `r rest_delivery["yes"]` 
+
+The most important attribute by far among all respondents is Room Type at 29.2%, followed by Business Amenities and Leisure Amenities at 21.32% and 19.74% respectively.
+
+# Conjoint Analysis: Nissa
+```{r ConjointAnalysisNissa}
+# Using the Conjoint function for the respondent No. 26
+Conjoint(preferences[26,],profiles,levelnames) 
+```
+For Nissa (respondent no. 26), the conjoint analysis indicates that their preferred hotel room is:    
+
+- Room Type: `r room_types["room office"]` 
+- Business Amenities: `r business_amenities["fax machine"]`
+- Leisure Amenities: `r leisure_amenities["exercise"]`
+- Extras: `r extras["shoe shine"]` 
+- Restaurant Delivery: `r rest_delivery["no"]` 
+
+The most important attribute for Nissa is Extras at 23.85%, but Room Type, Business Amenities, and Restaurant Delivery follow very closely in importance, at 21.94%, 21.94%, and 20.19% respectively.
+
+# Segmentation Analysis
+To identify separate groups within the respondents, I utilized K-means clustering to segment the preference data. This clustering method utilizes the preferences and according attributes for each respondent to calculate cluster means, and assign individuals to either cluster based on the graph-distance similarity. Unfortunately, the K-means method can not determine the optimum number of clusters, so another method is necessary in addition to K-means clustering. To determine the optimum number, I utilized a scree plot to display the total inter-cluster sum of squares values for each number of clusters from one through twenty, which is shown below. 
+
+With this plot, and some careful interpretation, I was able to determine an ideal number of segments to utilize for further analysis.
+
+```{r ScreePlot, fig.cap="**Figure 1: Scree Plot for Survey Respondent Segmentation, displaying the total within group sum of squares for each number of clusters**"}
+# Scree Plot to determine ideal number of segments
+seg_i <- list()
+for (i in 1:20) seg_i[i] <- caSegmentation(preferences,profiles,c=i)$segm$tot.withinss
+#seg_i <- as.numeric(unlist(seg_i))
+plot(1:20, seg_i, type="b", xlab="Number of Clusters", ylab="Within groups sum of squares") 
+```
+
+Looking at the scree plot, it appears that two would be an ideal number of segments for this data. That is because there is a significant reduction in the total within group sum of squares when segments are increased from one to two, but the addition of further segments does not result in such a significant relative reduction in the total sum of squares. Utilizing more than two segments would reduce the level of differences within each segment, but at the cost of making it more difficult to clearly differentiate between the different segments.
+
+```{r SegmentationAnalysis, fig.cap="**Figure 2: Respondent Segmentation Plot**"}
+### ---------------------------
+### Segmentation of respondents
+### ---------------------------
+
+### Segmentation using k-means method - division into 2 segments:
+segments<-caSegmentation(preferences,profiles,c=2) 
+
+# calculate each cluster's relative size
+cluster_size <- c(segments$segm$size[1]/sum(segments$segm$size),  segments$segm$size[2]/sum(segments$segm$size))
+
+## Saving segmentation results - append to preference ratings and save to .csv
+updated_preferences <- preferences
+updated_preferences$segment <- segments$segm$cluster
+write.csv(updated_preferences,"preferences_with_segment.csv", row.names=FALSE)
+
+# Print clustering information
+print(segments$seg)
+
+## Visualization of the division into 2 segments: 
+require(fpc) 
+require(broom) 
+require(ggplot2) 
+dcf<-discrcoord(segments$util,segments$sclu) 
+assignments<-augment(segments$segm,dcf$proj[,1:2]) 
+ggplot(assignments)+geom_point(aes(x=X1,y=X2,color= .cluster))+labs(color="Cluster Assignment",title="K-Means Clustering Results")
+```
+
+Looking at the plot of segment assignments, it appears that the K-means method worked well to separate the respondents into disjoint groups. Cluster 1 is the largest and contains 28 individuals (`r cluster_size[1]*100`%), while Cluster 2 only contained 12 individuals (`r cluster_size[2]*100`%). 
+
+The segment number that was calculated for each respondent was appended to the original preferences data, and saved as a .csv for potential future analysis.
+
+With this segmentation information, I think it is valuable to re-visit conjoint analysis, to better determine the preferences of each cluster, and to be able to fine-tune the attributes of the Forte Executive Innes to the preferences of the target customer.
+
+# Conjoint Analysis Per Segment
+## Segment 1 Conjoint Analysis
+```{r ConjointAnalysisSegment1}
+segm1_pref <- updated_preferences[updated_preferences$segment==1,1:16]
+
+# Using the Conjoint function for segment 1 (28 respondents - 70%)
+Conjoint(segm1_pref,profiles,levelnames) 
+```
+### Segment 1 Preferences
+- Room Type: `r room_types["room office"]` 
+- Business Amenities: `r business_amenities["speaker phone"]`
+- Leisure Amenities: `r leisure_amenities["exercise+pool"]` 
+- Extras: `r extras["fruit cheese bowl"]` 
+- Restaurant Delivery: `r rest_delivery["no"]` 
+
+The most three most-important attributes for Segment 1 are Room Type (28.07%), then Business Amenities (23.77%), then Extras (17.66%). 
+
+From these preferences, it seems that the individuals in Segment 1 prefer to have a space where they can work efficiently. Because they prefer a room-office, they want to be prepared to accomplish any task that they may encounter on their business trip, and especially be able to conference with others (though having an in-room fax machine is also highly ranked for this group). They like to have choices in how they relax, whether it's using the gym or pool, and they enjoy being pampered with indulgent amenities like a fruit and gourmet cheese bowl. However, restaurant delivery is not important to this group.
+
+## Segment 2 Conjoint Analysis
+```{r ConjointAnalysisSegment2}
+segm2_pref <- updated_preferences[updated_preferences$segment==2,1:16]
+
+# Using the Conjoint function for segment 2 (12 respondents - 30%)
+Conjoint(segm2_pref,profiles,levelnames) 
+```
+### Segment 2 Preferences
+- Room Type: `r room_types["large room"]` 
+- Business Amenity: `r business_amenities["speaker phone"]` 
+- Leisure Amenity: `r leisure_amenities["exercise"]` 
+- Extras: `r extras["newspaper"]` 
+- Restaurant Delivery: `r rest_delivery["yes"]` 
+
+The top three most-important attributes for Segment 2 are Room Type (31.85%), then Leisure Amenities (28.38%), then Business Amenities (15.61%).
+
+From these preferences it seems that the individuals in Segment 2 are business travelers who are primarily looking for a place to relax, rather than get work done. They prefer a standard room with two-beds, but they do still value having an in-room speaker phone for conferences when it's necessary. However more than a speaker phone, this group more-highly values leisure amenities, especially a well-equipped gym so that they may stay in shape. This group enjoys practical extras like a daily newspaper, and free restaurant delivery; however both of these things are relatively unimportant for this group overall.
+
+# Market analysis of simulation profiles
+The attributes of five competitor hotel brands that Forte Hotel expects to compete with are:
+
+**Note: in cell [2,1] the text "Room Type" isn't rendering for me when viewed with Firefox, but it seems to work with Chrome or Edge**
+```{r PlotcompetitorHotels, fig.cap="**Table 2: Profiles of Competitor Hotels**"}
+library(plotly)
+competitor <- read.csv("forte_existing.csv", header=TRUE) 
+
+fig <- plot_ly(,
+  type = 'table',
+  columnwidth = c(80, 80, 80, 80, 80, 80),
+  columnorder = c(0, 1, 2, 3, 4, 5),
+  height = 385,
+  header = list(
+    values = c("<b>Attribute / Competitor Hotel Profiles</b>", "<b>Courtyard by Mariott</b>", "<b>Nittany Lion Inn</b>", "<b>Atherton Hilton</b>", "<b>Tofftrees</b>", "<b>Scanticon</b>"),
+    align = c("center", "center"),
+    line = list(width = 1, color = 'black'),
+    fill = list(color = c("grey")),
+    font = list(family = "Arial", size = 14, color = "white")
+  ),
+  cells = list(
+    values = rbind(c("<b>Room Type</b>", "<b>Business Amenities</b>", "<b>Leisure Amenities</b>", "<b>Extras</b>", "<b>Restaurant Delivery</b>"), competitor[,2], competitor[,3], competitor[,4], competitor[,5], competitor[,6]),
+    align = c("left", "left"),
+    line = list(color = "black", width = 1),
+    fill = list(color = c("grey", "white")),
+    font = list(family = "Arial", size = 13, color = c("white", "black")),
+    height=40
+  ))
+fig
+```    
+
+And the profile attributes of the new hotel options are:
+
+```{r PlotNewHotels, fig.cap="**Table 3: New Hotel Profile Options**"}
+library(plotly)
+new_options <- read.csv("forte_newoptions.csv", header=TRUE) 
+
+fig <- plot_ly(,
+  type = 'table',
+  columnwidth = c(80, 80, 80, 80, 80),
+  columnorder = c(0, 1, 2, 3, 4),
+  height=350,
+  header = list(
+    values = c("<b>Attribute / New Hotel Profiles</b>", "<b>Professional 1</b>", "<b>Professional 2</b>", "<b>Tourist</b>", "<b>Deluxe</b>"),
+    align = c("center", "center"),
+    line = list(width = 1, color = 'black'),
+    fill = list(color = c("grey")),
+    font = list(family = "Arial", size = 14, color = "white")
+  ),
+  cells = list(
+    values = rbind(c("<b>Room Type</b>", "<b>Business Amenities</b>", "<b>Leisure Amenities</b>", "<b>Extras</b>", "<b>Restaurant Delivery</b>"), new_options[,2], new_options[,3], new_options[,4], new_options[,5]),
+    align = c("left", "left"),
+    line = list(color = "black", width = 1),
+    fill = list(color = c("grey", "white")),
+    font = list(family = "Arial", size = 13, color = c("white", "black")),
+    height=40
+  ))
+fig
+```  
+
+
+Unfortunately the R 'Conjoint' package's simulation functions aren't working for this data set. So I will complete a market share analysis by manually reasoning from the conjoint analysis data instead. 
+
+```{r SimulationAnalysis}
+#Using maximum utility model, BTL probability model (Bradley-Terry-Luce Model) and logit model:
+#ShowAllSimulations(sym=simulations1,y=preferences,x=profiles)
+```
+**Competitor Analysis:**
+
+For Segment 1's estimated choice of competitor hotel chains would first be based on the room type. Since this segment prefers a room containing a full-sized desk, they would then choose the Scanticon because it is the only option that provides that choice.
+
+For Segment 2's estimated choice of competitor hotels, they would first choose based on the room type, seeking a large standard room. This would narrow the options to the Nittany Lion Inn or the Atherton Hilton. Segment 2 individuals would then look at leisure amenities and business amenities, but because those are the same for both options, they would make the choice based on the next factor in importance: restaurant delivery, seeking a hotel that offers the service. So, Segment 2 individuals would then choose the Nittany Lion Inn, which in addition to restaurant delivery, also provides a daily newspaper, though it is their least important factor.
+
+**New Hotel Profile Analysis:**
+
+For Segment 1's estimated choice of new hotel profiles, they would again first assess the options based on the room type. The Professional 1 room would therefore be chosen by Segment 1 individuals because that is the only option with a desk in-room.
+
+For Segment 2's estimated choice of new hotel profiles, they would choose first based on the room type, and would limit the options to the Tourist or Deluxe rooms because those options feature large standard rooms. Next, Segment 2 individuals would choose based on leisure amenities, but both available options are identical (though they don't meet the preference of a exercise room only). So this Segment would ultimately decide based on the business amenities, and choose the Tourist room profile because it provides an in-room speaker phone.
+
+```{r PlotResults, fig.cap="**Table 4: Competitor Analysis and New Profile Analysis Results**"}
+library(plotly)
+
+fig <- plot_ly(,
+  type = 'table',
+  columnwidth = c(20, 20, 20),
+  columnorder = c(0, 1, 2),
+  height=180,
+  header = list(
+    values = c("","<b>Segment 1</b>", "<b>Segment 2</b>"),
+    align = c("center"),
+    line = list(width = 1, color = 'black'),
+    fill = list(color = c("grey")),
+    font = list(family = "Arial", size = 14, color = "white")
+  ),
+  cells = list(
+    values = rbind(c("<b>Strongest Competitor</b>", "<b>Preferred New Profile</b>"),
+                   c("Scanticon", "Professional 1"),
+                   c("Nittany Lion Inn", "Tourist")),
+    align = c("left", "center"),
+    line = list(color = "black", width = 1),
+    fill = list(color = c("grey", "white")),
+    font = list(family = "Arial", size = 13, color = c("white", "black")),
+    height=40
+  ))
+fig
+```
+
+# Recommendations
+Based on the presence of two clear segments, who are both part of the Forte Hotel target market, I suggest that the new Forte Executive Innes design account for the preference of both of these segments proportionally. Therefore, 70% of rooms in the new hotel design should fit the preferences of Segment 1, and 30% of the new hotel rooms should accommodate the preferences of Segment 2. 
+
+Using the new room profiles identified in Table 4, this means that the Forte Executive Innes design should include 70% of its rooms with the Professional I profile, and 30% of its rooms with the Tourist profile. For the Leisure amenity, because it would make sense to have only one option for the entire hotel, I would suggest accommodating the preferences of Segment 1 and having an exercise room + pool.
+
+# Future Work
+Now that we have identified the preferences of the different segments of target customers for Forte Hotels, further analysis could be done to identify what the drivers are of consumer choice of the Forte Executive Innes versus the closest competitors identified from conjoint analysis (Scanticon for Segment 1 and Nittany Lion Inn for Segment 2). This future analysis could be completed by developing a binary logit model.
+
