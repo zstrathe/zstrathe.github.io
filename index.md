@@ -242,7 +242,7 @@ Term Project for MKTG 880: Applied Marketing Analytics
 <br><br>
 <div class="row">
 <p align="center">
-    <a href="code/mktg880/mktg880_report.html">Report</a> | <a href="pdf/mktg880_presentation.pdf">Presentation Slides</a> | <a href="code/mktg880/mktg880_code.RMD">R Code</a>
+    <a href="code/mktg880/mktg880_report.html">Report</a> | <a href="pdf/mktg880_presentation.pdf">Presentation Slides</a> | <a href="code/mktg880/mktg880_code.html">R Code</a>
     </p>
   </div> 
 <div class="row">
