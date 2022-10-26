@@ -250,11 +250,11 @@ Term Project for MKTG 880: Applied Marketing Analytics
     <ul style="list-style-position: outside; padding-left: 15px">
     <li>Conducted customer and market analysis for a fictional new chain of hotels</li>
     <br>
-    <li>Utilized part-worth utility analysis from target customer survey data to determine relative importance of different hotel attributes</li>
+    <li>Determined relative importance of different hotel attributes by utilizing part-worth utility analysis from target customer survey data to </li>
     <br>
-    <li>Utilized conjoint analysis with survey data to determine ideal hotel room features for each attribute</li>
+    <li>Determined ideal hotel room features for each potential attribute by utilizing conjoint analysis with the customer survey data</li>
     <br>
-    <li>Utilized segmentation with k-means clustering to identify different segments from customer data, and used a scree plot to determine the ideal number of segments based on differences in the within group sum of squares totals</li>
+    <li>Utilized segmentation with k-means clustering to identify different segments from customer survey data, and used a scree plot to determine the ideal number of segments based on differences in the within group sum of squares totals</li>
     <br>
     <li>Using segmentation and conjoint analysis data, conducted market analysis versus competing brands to identify strongest competitor and identified ideal hotel features for each customer segment, in order to recommend attributes for a new hotel with the highest likelihood of success </li>    
     <br>
