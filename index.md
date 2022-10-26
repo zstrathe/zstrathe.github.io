@@ -235,5 +235,39 @@ Term Project for MANGT 830: Information Technology Strategy and Application
 </div>
 </div>
 ---
+<div id="mktg880project">
+<h2>R Market Analysis</h2>
+
+Term Project for MKTG 880: Applied Marketing Analytics
+<br><br>
+<div class="row">
+<p align="center">
+    <a href="code/mktg880/mktg880_paper.html">Paper</a> | <a href="pdf/mktg880_presentation.pdf">Presentation Slides</a> | <a href="code/mktg880/mktg880_code.RMD">R Code</a>
+    </p>
+  </div> 
+<div class="row">
+  <div class="column">
+    <ul style="list-style-position: outside; padding-left: 15px">
+    <li>Conducted customer and market analysis for a fictional new chain of hotels</li>
+    <br>
+    <li>Utilized part-worth utility analysis from target customer survey data to determine relative importance of different hotel attributes</li>
+    <br>
+    <li>Utilized conjoint analysis with survey data to determine ideal hotel room features for each attribute</li>
+    <br>
+    <li>Utilized segmentation with k-means clustering to identify different segments from customer data, and used a scree plot to determine the ideal number of segments</li>
+    <br>
+    <li>Using segmentation and conjoint analysis data, conducted market analysis versus competing brands to identify strongest competitor and identified ideal hotel features for each customer segment, in order to recommend attributes for a new hotel with the highest likelihood of success </li>    
+    <br>
+    <li>Technologies used:  <code>R, Plotly, ggplot2</code></li>
+    </ul> 
+  </div>
+  <div class="column">
+    <p align="center">
+    <img src="images/9_r_market_analysis.png?raw=true" width="350"/>
+    </p>
+  </div>
+</div>
+</div>
+---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
